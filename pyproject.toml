@@ -9,6 +9,9 @@ license = "CC-BY-SA-4.0"
 python = "^3.6"
 rst2pdf = "^0.98"
 pygments = "^2.7.3"
+bottle = "^0.12.19"
+requests = "^2.25.1"
+pytest = "^6.2.1"
 
 [tool.poetry.dev-dependencies]
 

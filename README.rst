@@ -1,13 +1,13 @@
-=========================
-Contract testing and Pact
-=========================
+==========================
+Contract testing and Pact_
+==========================
 
 Written as a talk for CamPUG_
 
 History
 ~~~~~~~
 
-The talk was given at CamPUG_ on Tuesday 12th January 2021.
+The talk was (will be) given at CamPUG_ on Tuesday 12th January 2021.
 
 The files
 ~~~~~~~~~
@@ -31,10 +31,10 @@ timestamps.
 
 Making the PDF and HTML files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-For convenience, you can use the Makefile to create the PDF slides, create the
-HTML version of the extended notes, and so on. For instance::
+For convenience, you can use the Makefile to create the PDF slides, an HTML
+version of the text, and so on. For instance::
 
-  $ make pdf
+  $ make slides
 
 will make the PDF files.
 
@@ -57,6 +57,8 @@ and an appropriate ``make`` program if you want to use the Makefile.
 .. _docutils: http://docutils.sourceforge.net/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _TeX: https://www.ctan.org/starter
+
+.. _pact: https://docs.pact.io/_
 
 --------
 
