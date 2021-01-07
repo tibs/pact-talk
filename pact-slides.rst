@@ -126,6 +126,8 @@ need a "put butter on things" service.
 The "put butter on things" service, service1
 --------------------------------------------
 
+``service1.py``
+
 .. code:: python
 
   #!/usr/bin/env python3
@@ -150,6 +152,8 @@ need, and documentation, and everything, as well.
 ...OK, here's a basic test
 --------------------------
 
+``service1_tests.py``
+
 .. code:: python
 
   #!/usr/bin/env python3
@@ -158,6 +162,21 @@ need, and documentation, and everything, as well.
 
   def test_butter():
       assert butter('bread') == 'bread and butter'
+
+The test passes
+---------------
+
+.. code:: shell
+
+  $ pytest server1_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server1
+  collected 1 item
+
+  server1_tests.py .                                                       [100%]
+
+  ============================== 1 passed in 0.05s ===============================
 
 Our client, client1
 -------------------
@@ -174,6 +193,8 @@ We're just interested in the test we need in our client.
 
 The test we need in our client
 ------------------------------
+
+``client1_tests.py``
 
 .. code:: python
 
@@ -204,6 +225,23 @@ elsewhere in our testing, and we can use other techniques to inject that
 result into that testing - we don't necessarily need to make a request
 elsewhere at all.
 
+The test passes
+---------------
+
+.. code:: shell
+
+  $ pytest client1_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1
+  collected 1 item
+
+  client1_tests.py .                                                       [100%]
+
+  ============================== 1 passed in 0.10s ===============================
+
+(provided I remember to run the server process)
+
 But - we're making a real request
 ---------------------------------
 
@@ -217,6 +255,10 @@ Getting a recording
 
 <show how to do that>
 
+.. code:: shell
+
+   ...
+
 The Pact recording
 ------------------
 
@@ -227,10 +269,29 @@ And using it
 
 <and how to amend the test to use it>
 
+``client1_contract_tests.py``
+
+.. code:: python
+
+   ...
+
 But it's also a contract...
 ---------------------------
 
-<show testing that the client honours the contract>
+``service1_contract_tests.py``
+
+.. code:: python
+
+   ...
+
+Which we can test is honoured by our service
+--------------------------------------------
+
+<show testing that the service honours the contract>
+
+.. code:: shell
+
+   ...
 
 Interlude
 ---------
@@ -245,6 +306,8 @@ get back "bread and butter".
 
 Idempotent buttering, service2
 ------------------------------
+
+``service2.py``
 
 .. code:: python
 
@@ -267,6 +330,8 @@ Idempotent buttering, service2
 And add a new test for service2
 -------------------------------
 
+``service2_tests.py``
+
 .. code:: python
 
   #!/usr/bin/env python3
@@ -279,8 +344,66 @@ And add a new test for service2
   def test_already_buttered():
       assert butter('bread and butter') == 'bread and butter'
 
+Our server tests still pass
+---------------------------
+
+.. code:: shell
+
+  $ pytest server2_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server2
+  collected 2 items
+
+  server2_tests.py ..                                                      [100%]
+
+  ============================== 2 passed in 0.04s ===============================
+
+For what it's worth, we still honour the contract
+-------------------------------------------------
+
+.. code:: shell
+
+   ...
+
 And client2 wants to use the new ability
 ----------------------------------------
+
+``client2_contract_tests.py``
+
+<make this code correct>
+
+.. code:: python
+
+  #!/usr/bin/env python3
+
+  import requests
+
+  def test_buttering():
+      result = requests.get(f'{SERVER_BASE_URL}/bread')
+      assert(result.status_code) == 200
+      assert(result.text) == 'bread and butter'
+
+  def test_buttering_twice():
+      result = requests.get(f'{SERVER_BASE_URL}/bread%20and%20butter')
+      assert(result.status_code) == 200
+      assert(result.text) == 'bread and butter'
+
+But it fails!
+-------------
+
+<show the failure>
+
+.. code:: shell
+
+...because the contract (the recording) doesn't know this new functionality
+
+Although if we use the server directly
+--------------------------------------
+
+Remember the test against the server? We can extend it.
+
+``client2_tests.py``
 
 .. code:: python
 
@@ -300,33 +423,57 @@ And client2 wants to use the new ability
       assert(result.status_code) == 200
       assert(result.text) == 'bread and butter'
 
-(actually we add the new test to the test suite with the contract...)
+Those tests pass
+----------------
 
-But it fails!
--------------
+.. code:: shell
 
-<show the failure>
+  $ pytest client2_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client2
+  collected 2 items
 
-...because the contract (the recording) doesn't know this new functionality
+  client2_tests.py ..                                                      [100%]
 
-Update the contract
--------------------
+  ============================== 2 passed in 0.11s ===============================
+
+(assuming I rememeber to run the corresponding server)
+
+So we need to update the contract
+---------------------------------
 
 Show how.
 
-Show that the butterer supports *both* contracts
-------------------------------------------------
+.. code:: shell
+
+   ...
+
+And now client2 is happy with the contract
+------------------------------------------
+
+<do I need a slide before this for a different ``client2_contract_tests.py``?>
 
 <show it>
 
-As it should
+.. code:: shell
 
-Show the old and new service using the new client
--------------------------------------------------
+   ...
 
-<both the original and newer sandwich maker can use the new contract>
 
-...although perhaps that reflects on their tests...
+And the new service is happy with the contract
+----------------------------------------------
+
+.. code:: shell
+
+   ...
+
+But the old service and the new contract...
+-------------------------------------------
+
+.. code:: shell
+
+   ...
 
 Combinations
 ------------
@@ -365,7 +512,7 @@ Pact broker - run by Pact
 
 Pact broker - run locally
 
-By copying (don't do this?)
+By copying (don't do this?**
 
 Via github or other VCS
 
@@ -377,7 +524,130 @@ Interlude
 Examples of more complicated contracts
 --------------------------------------
 
-Can I show my example from work? Is it useful?
+Choices / inexact matches / approximations
+
+A more complex contract: example data
+-------------------------------------
+
+**Convert to Python!**
+
+.. code:: ruby
+
+  # This is a fairly minimal legal example, as determined by experimentation
+  # In particular, the "top level" type must be from a known enumeration,
+  # and the "second level" type is also limited to particular values.
+  example_data = [
+    {
+      name: 'Something',
+      type: 'Sometype',
+      settings: [
+        {
+          name: 'label',
+          label: 'Test label'
+        }
+      ]
+    }
+  ]
+
+A more complex contract: example test
+-------------------------------------
+
+**Convert to Python!**
+
+.. code:: ruby
+
+  describe 'a request to get metadata for settings' do
+    it 'gets the expected metadata' do
+       our_server.upon_receiving('a metadata request')
+        .with(method: :get, path: '/v1/our_server/metadata',
+              query: 'tell_me=settings')
+        .will_respond_with(
+           status: 200,
+           headers: {'Content-Type' => 'application/json; charset=utf- 8'},
+           body: each_like(
+             name: like('Something'),
+             type: like('Sometype'),
+             settings: each_like( name: 'label', label: 'Test label')
+           )
+        )
+    end
+  end
+
+A more complex contract: the contract - 1
+-----------------------------------------
+
+.. code:: json
+
+  {
+      "consumer": {
+          "name": "our-client"
+      },
+      "provider": {
+          "name": "our-server"
+      },
+
+A more complex contract: the contract - 2
+-----------------------------------------
+
+.. code:: json
+
+      "interactions": [
+          {
+              "description": "a metadata request",
+              "request": {
+                  "method": "get",
+                  "path": "/v1/our_service/metadata",
+                  "query": "tell_me=settings"
+              },
+
+A more complex contract: the contract - 3
+-----------------------------------------
+
+.. code:: json
+
+              "response": {
+                  "status": 200,
+                  "headers": {
+                      "Content-Type": "application/json; charset=utf-8"
+                  },
+                  "body": [
+                      {
+                          "name": "Something",
+                          "type": "Sometype",
+                          "settings": [
+                              { "value1": "happy", "value2": "round" }
+                          ]
+                      }
+                  ],
+
+A more complex contract: the contract - 4
+-----------------------------------------
+
+.. code:: json
+
+                  "matchingRules": {
+                      "$.body": { "min": 1 },
+                      "$.body[*].*": { "match": "type" },
+                      "$.body[*].name": { "match": "type" },
+                      "$.body[*].type": { "match": "type" },
+                      "$.body[*].settings": { "min": 1 },
+                      "$.body[*].settings[*].*": { "match": "type" }
+                  }
+              },
+              "metadata": null
+          }
+      ],
+
+A more complex contract: the contract - 5
+-----------------------------------------
+
+.. code:: json
+
+      "metadata": {
+          "pactSpecification": { "version": "2.0.0"}
+      }
+  }
+
 
 Pact 2 versus Pact 3
 --------------------
@@ -444,6 +714,8 @@ https://medium.com/@george.shuklin/tips-and-tricks-on-http-s-session-recording-4
 
 Fin
 ---
+
+*Remember, buttering should be idempotent.*
 
 Written in reStructuredText_.
 
