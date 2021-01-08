@@ -75,7 +75,7 @@ But does gives us useful documentation of our expectations
 3. Record real server responses
 -------------------------------
 
-Use a library like VCR or Betamax to record the actual responses
+Use a library like VCR_ or Betamax_ to record the actual responses
 
 * What version of the server?
 
@@ -87,15 +87,22 @@ Excellent approach, but we have to remember to update the recordings
 If we're lucky enough to have at least some control over both client and
 server, we can do better.
 
-Take the same approach as for recording, but *also* check that the server
-agrees it can honour those recordnings
+Instead of recording the response to our request, we describe it
+
+Or, actually, we describe what we care about in the response
+
+We can then test the client using that description as if it were a recording
+
+And we can test that the server agrees that it can honour that description
 
 In other words, we have a **contract** between client and server.
 
-But what about that server version?
------------------------------------
+But what about the server version?
+----------------------------------
 
-Basically
+Different versions of the server may still behave differently
+
+But we can:
 
 * name the contracts
 * note which contracts server A and client B should both honour
@@ -243,9 +250,6 @@ But - we're making a real request
 Which we already said was a Bad Thing at the start of this talk
 
 So let's look at how we can use Pact to describe our request and the response
-
-(if you want to do the same for VCR or Betamax, I'll give links to them at the
-end)
 
 Let's write a test with pact - 1/2
 ----------------------------------
@@ -870,8 +874,6 @@ Fin
 ---
 
 * Pact: https://docs.pact.io/
-* VCR: https://vcrpy.readthedocs.io/
-* Betamax: https://betamax.readthedocs.io/
 
 *Remember, buttering should be idempotent.*
 
@@ -892,3 +894,5 @@ Source and examples at https://github.com/tibs/pact-talk
 .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _rst2pdf: https://rst2pdf.org/
 .. _pact-python: https://github.com/pact-foundation/pact-python
+.. _VCR: https://vcrpy.readthedocs.io/
+.. _Betamax: https://betamax.readthedocs.io/

@@ -2,7 +2,7 @@
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
-/F1 2 0 R /F2 4 0 R /F3 18 0 R /F4 23 0 R /F5 25 0 R /F6 26 0 R
+/F1 2 0 R /F2 4 0 R /F3 24 0 R /F4 26 0 R /F5 27 0 R /F6 31 0 R
 >>
 endobj
 2 0 obj
@@ -149,22 +149,31 @@ endobj
 endobj
 17 0 obj
 <<
-/Contents 165 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
-/FormXob.aeae0e116928256e868d0150b93308ea 3 0 R
->>
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/A <<
+/S /URI /Type /Action /URI (https://vcrpy.readthedocs.io/)
+>> /Border [ 0 0 0 ] /Rect [ 111.6223 190.5354 136.9543 204.9354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 18 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI /Type /Action /URI (https://betamax.readthedocs.io/)
+>> /Border [ 0 0 0 ] /Rect [ 154.2943 190.5354 201.6463 204.9354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 19 0 obj
+<<
+/Annots [ 17 0 R 18 0 R ] /Contents 165 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
+/FormXob.aeae0e116928256e868d0150b93308ea 3 0 R
+>>
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+20 0 obj
 <<
 /Contents 166 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -176,7 +185,7 @@ endobj
   /Type /Page
 >>
 endobj
-20 0 obj
+21 0 obj
 <<
 /Contents 167 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -188,7 +197,7 @@ endobj
   /Type /Page
 >>
 endobj
-21 0 obj
+22 0 obj
 <<
 /Contents 168 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -200,7 +209,7 @@ endobj
   /Type /Page
 >>
 endobj
-22 0 obj
+23 0 obj
 <<
 /Contents 169 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -212,12 +221,12 @@ endobj
   /Type /Page
 >>
 endobj
-23 0 obj
+24 0 obj
 <<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
 /Contents 170 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -229,17 +238,17 @@ endobj
   /Type /Page
 >>
 endobj
-25 0 obj
-<<
-/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
->>
-endobj
 26 0 obj
 <<
-/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
 >>
 endobj
 27 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+28 0 obj
 <<
 /Contents 171 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -251,7 +260,7 @@ endobj
   /Type /Page
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
 /Contents 172 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -263,7 +272,7 @@ endobj
   /Type /Page
 >>
 endobj
-29 0 obj
+30 0 obj
 <<
 /Contents 173 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -275,7 +284,12 @@ endobj
   /Type /Page
 >>
 endobj
-30 0 obj
+31 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+32 0 obj
 <<
 /Contents 174 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -287,7 +301,7 @@ endobj
   /Type /Page
 >>
 endobj
-31 0 obj
+33 0 obj
 <<
 /Contents 175 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -299,7 +313,7 @@ endobj
   /Type /Page
 >>
 endobj
-32 0 obj
+34 0 obj
 <<
 /Contents 176 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -311,7 +325,7 @@ endobj
   /Type /Page
 >>
 endobj
-33 0 obj
+35 0 obj
 <<
 /Contents 177 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -323,7 +337,7 @@ endobj
   /Type /Page
 >>
 endobj
-34 0 obj
+36 0 obj
 <<
 /Contents 178 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -335,16 +349,16 @@ endobj
   /Type /Page
 >>
 endobj
-35 0 obj
+37 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/pact-foundation/pact-python)
 >> /Border [ 0 0 0 ] /Rect [ 53.6143 190.5354 116.3143 204.9354 ] /Subtype /Link /Type /Annot
 >>
 endobj
-36 0 obj
+38 0 obj
 <<
-/Annots [ 35 0 R ] /Contents 179 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
+/Annots [ 37 0 R ] /Contents 179 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
 /FormXob.aeae0e116928256e868d0150b93308ea 3 0 R
 >>
@@ -354,7 +368,7 @@ endobj
 >> /Type /Page
 >>
 endobj
-37 0 obj
+39 0 obj
 <<
 /Contents 180 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -366,7 +380,7 @@ endobj
   /Type /Page
 >>
 endobj
-38 0 obj
+40 0 obj
 <<
 /Contents 181 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -378,7 +392,7 @@ endobj
   /Type /Page
 >>
 endobj
-39 0 obj
+41 0 obj
 <<
 /Contents 182 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -390,7 +404,7 @@ endobj
   /Type /Page
 >>
 endobj
-40 0 obj
+42 0 obj
 <<
 /Contents 183 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -402,7 +416,7 @@ endobj
   /Type /Page
 >>
 endobj
-41 0 obj
+43 0 obj
 <<
 /Contents 184 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -414,7 +428,7 @@ endobj
   /Type /Page
 >>
 endobj
-42 0 obj
+44 0 obj
 <<
 /Contents 185 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -426,7 +440,7 @@ endobj
   /Type /Page
 >>
 endobj
-43 0 obj
+45 0 obj
 <<
 /Contents 186 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -438,7 +452,7 @@ endobj
   /Type /Page
 >>
 endobj
-44 0 obj
+46 0 obj
 <<
 /Contents 187 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -450,7 +464,7 @@ endobj
   /Type /Page
 >>
 endobj
-45 0 obj
+47 0 obj
 <<
 /Contents 188 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -462,7 +476,7 @@ endobj
   /Type /Page
 >>
 endobj
-46 0 obj
+48 0 obj
 <<
 /Contents 189 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -474,7 +488,7 @@ endobj
   /Type /Page
 >>
 endobj
-47 0 obj
+49 0 obj
 <<
 /Contents 190 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -486,7 +500,7 @@ endobj
   /Type /Page
 >>
 endobj
-48 0 obj
+50 0 obj
 <<
 /Contents 191 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -498,7 +512,7 @@ endobj
   /Type /Page
 >>
 endobj
-49 0 obj
+51 0 obj
 <<
 /Contents 192 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -510,7 +524,7 @@ endobj
   /Type /Page
 >>
 endobj
-50 0 obj
+52 0 obj
 <<
 /Contents 193 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -522,7 +536,7 @@ endobj
   /Type /Page
 >>
 endobj
-51 0 obj
+53 0 obj
 <<
 /Contents 194 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -534,7 +548,7 @@ endobj
   /Type /Page
 >>
 endobj
-52 0 obj
+54 0 obj
 <<
 /Contents 195 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -546,7 +560,7 @@ endobj
   /Type /Page
 >>
 endobj
-53 0 obj
+55 0 obj
 <<
 /Contents 196 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -558,7 +572,7 @@ endobj
   /Type /Page
 >>
 endobj
-54 0 obj
+56 0 obj
 <<
 /Contents 197 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -570,7 +584,7 @@ endobj
   /Type /Page
 >>
 endobj
-55 0 obj
+57 0 obj
 <<
 /Contents 198 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -582,7 +596,7 @@ endobj
   /Type /Page
 >>
 endobj
-56 0 obj
+58 0 obj
 <<
 /Contents 199 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -594,7 +608,7 @@ endobj
   /Type /Page
 >>
 endobj
-57 0 obj
+59 0 obj
 <<
 /Contents 200 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -606,7 +620,7 @@ endobj
   /Type /Page
 >>
 endobj
-58 0 obj
+60 0 obj
 <<
 /Contents 201 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -618,7 +632,7 @@ endobj
   /Type /Page
 >>
 endobj
-59 0 obj
+61 0 obj
 <<
 /Contents 202 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -630,7 +644,7 @@ endobj
   /Type /Page
 >>
 endobj
-60 0 obj
+62 0 obj
 <<
 /Contents 203 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -642,7 +656,7 @@ endobj
   /Type /Page
 >>
 endobj
-61 0 obj
+63 0 obj
 <<
 /Contents 204 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -654,7 +668,7 @@ endobj
   /Type /Page
 >>
 endobj
-62 0 obj
+64 0 obj
 <<
 /Contents 205 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -666,7 +680,7 @@ endobj
   /Type /Page
 >>
 endobj
-63 0 obj
+65 0 obj
 <<
 /Contents 206 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -678,7 +692,7 @@ endobj
   /Type /Page
 >>
 endobj
-64 0 obj
+66 0 obj
 <<
 /Contents 207 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -690,7 +704,7 @@ endobj
   /Type /Page
 >>
 endobj
-65 0 obj
+67 0 obj
 <<
 /Contents 208 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -702,7 +716,7 @@ endobj
   /Type /Page
 >>
 endobj
-66 0 obj
+68 0 obj
 <<
 /Contents 209 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -714,7 +728,7 @@ endobj
   /Type /Page
 >>
 endobj
-67 0 obj
+69 0 obj
 <<
 /Contents 210 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -726,7 +740,7 @@ endobj
   /Type /Page
 >>
 endobj
-68 0 obj
+70 0 obj
 <<
 /Contents 211 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -738,7 +752,7 @@ endobj
   /Type /Page
 >>
 endobj
-69 0 obj
+71 0 obj
 <<
 /Contents 212 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -750,7 +764,7 @@ endobj
   /Type /Page
 >>
 endobj
-70 0 obj
+72 0 obj
 <<
 /Contents 213 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -762,7 +776,7 @@ endobj
   /Type /Page
 >>
 endobj
-71 0 obj
+73 0 obj
 <<
 /Contents 214 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -774,7 +788,7 @@ endobj
   /Type /Page
 >>
 endobj
-72 0 obj
+74 0 obj
 <<
 /Contents 215 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -786,7 +800,7 @@ endobj
   /Type /Page
 >>
 endobj
-73 0 obj
+75 0 obj
 <<
 /Contents 216 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -798,7 +812,7 @@ endobj
   /Type /Page
 >>
 endobj
-74 0 obj
+76 0 obj
 <<
 /Contents 217 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -810,23 +824,23 @@ endobj
   /Type /Page
 >>
 endobj
-75 0 obj
+77 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://pactflow.io/)
 >> /Border [ 0 0 0 ] /Rect [ 171.9903 154.7354 268.0383 169.1354 ] /Subtype /Link /Type /Annot
 >>
 endobj
-76 0 obj
+78 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/pact-foundation/pact_broker)
 >> /Border [ 0 0 0 ] /Rect [ 42.6063 123.9354 290.0703 138.3354 ] /Subtype /Link /Type /Annot
 >>
 endobj
-77 0 obj
+79 0 obj
 <<
-/Annots [ 75 0 R 76 0 R ] /Contents 218 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
+/Annots [ 77 0 R 78 0 R ] /Contents 218 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
 /FormXob.aeae0e116928256e868d0150b93308ea 3 0 R
 >>
@@ -836,7 +850,7 @@ endobj
 >> /Type /Page
 >>
 endobj
-78 0 obj
+80 0 obj
 <<
 /Contents 219 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -848,7 +862,7 @@ endobj
   /Type /Page
 >>
 endobj
-79 0 obj
+81 0 obj
 <<
 /Contents 220 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -860,46 +874,32 @@ endobj
   /Type /Page
 >>
 endobj
-80 0 obj
+82 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://docs.pact.io/)
 >> /Border [ 0 0 0 ] /Rect [ 73.2903 187.5354 176.6823 201.9354 ] /Subtype /Link /Type /Annot
 >>
 endobj
-81 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://vcrpy.readthedocs.io/)
->> /Border [ 0 0 0 ] /Rect [ 74.6103 171.1354 224.6823 185.5354 ] /Subtype /Link /Type /Annot
->>
-endobj
-82 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (https://betamax.readthedocs.io/)
->> /Border [ 0 0 0 ] /Rect [ 96.6303 154.7354 264.0543 169.1354 ] /Subtype /Link /Type /Annot
->>
-endobj
 83 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
->> /Border [ 0 0 0 ] /Rect [ 73.6183 102.9354 162.9823 117.3354 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 73.6183 135.7354 162.9823 150.1354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 84 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://rst2pdf.org/)
->> /Border [ 0 0 0 ] /Rect [ 298.3783 102.9354 335.0623 117.3354 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 298.3783 135.7354 335.0623 150.1354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 85 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/tibs/pact-talk)
->> /Border [ 0 0 0 ] /Rect [ 152.3383 78.53543 317.7463 92.93543 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 152.3383 111.3354 317.7463 125.7354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 86 0 obj
@@ -922,19 +922,19 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (http://creativecommons.org/licenses/by-sa/4.0/)
->> /Border [ 0 0 0 ] /Rect [ 343.5223 54.13543 388.1983 68.53543 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 343.5223 86.93543 388.1983 101.3354 ] /Subtype /Link /Type /Annot
 >>
 endobj
 89 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (http://creativecommons.org/licenses/by-sa/4.0/)
->> /Border [ 0 0 0 ] /Rect [ 19.6063 39.73543 327.7303 54.13543 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 19.6063 72.53543 327.7303 86.93543 ] /Subtype /Link /Type /Annot
 >>
 endobj
 90 0 obj
 <<
-/Annots [ 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 88 0 R 89 0 R ] /Contents 221 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
+/Annots [ 82 0 R 83 0 R 84 0 R 85 0 R 88 0 R 89 0 R ] /Contents 221 0 R /MediaBox [ 0 0 453.5433 255.1181 ] /Parent 156 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
 /FormXob.aeae0e116928256e868d0150b93308ea 3 0 R /FormXob.f969d44abedce71236e0b5bf751c23a3 86 0 R
 >>
@@ -951,7 +951,7 @@ endobj
 endobj
 92 0 obj
 <<
-/Author () /CreationDate (D:20210108182041+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210108182041+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20210108231707+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210108231707+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Contract Testing with Pact) /Trapped /False
 >>
 endobj
@@ -997,272 +997,272 @@ endobj
 endobj
 101 0 obj
 <<
-/Dest [ 17 0 R /XYZ 19.6063 236.1354 0 ] /Next 102 0 R /Parent 93 0 R /Prev 100 0 R /Title (3. Record real server responses)
+/Dest [ 19 0 R /XYZ 19.6063 236.1354 0 ] /Next 102 0 R /Parent 93 0 R /Prev 100 0 R /Title (3. Record real server responses)
 >>
 endobj
 102 0 obj
 <<
-/Dest [ 19 0 R /XYZ 19.6063 236.1354 0 ] /Next 103 0 R /Parent 93 0 R /Prev 101 0 R /Title (4. Ideal approach - contract testing)
+/Dest [ 20 0 R /XYZ 19.6063 236.1354 0 ] /Next 103 0 R /Parent 93 0 R /Prev 101 0 R /Title (4. Ideal approach - contract testing)
 >>
 endobj
 103 0 obj
 <<
-/Dest [ 20 0 R /XYZ 19.6063 236.1354 0 ] /Next 104 0 R /Parent 93 0 R /Prev 102 0 R /Title (But what about that server version?)
+/Dest [ 21 0 R /XYZ 19.6063 236.1354 0 ] /Next 104 0 R /Parent 93 0 R /Prev 102 0 R /Title (But what about the server version?)
 >>
 endobj
 104 0 obj
 <<
-/Dest [ 21 0 R /XYZ 19.6063 236.1354 0 ] /Next 105 0 R /Parent 93 0 R /Prev 103 0 R /Title (Maybe use a contract broker)
+/Dest [ 22 0 R /XYZ 19.6063 236.1354 0 ] /Next 105 0 R /Parent 93 0 R /Prev 103 0 R /Title (Maybe use a contract broker)
 >>
 endobj
 105 0 obj
 <<
-/Dest [ 22 0 R /XYZ 19.6063 236.1354 0 ] /Next 106 0 R /Parent 93 0 R /Prev 104 0 R /Title (Interlude)
+/Dest [ 23 0 R /XYZ 19.6063 236.1354 0 ] /Next 106 0 R /Parent 93 0 R /Prev 104 0 R /Title (Interlude)
 >>
 endobj
 106 0 obj
 <<
-/Dest [ 24 0 R /XYZ 19.6063 236.1354 0 ] /Next 107 0 R /Parent 93 0 R /Prev 105 0 R /Title (A very very simple example)
+/Dest [ 25 0 R /XYZ 19.6063 236.1354 0 ] /Next 107 0 R /Parent 93 0 R /Prev 105 0 R /Title (A very very simple example)
 >>
 endobj
 107 0 obj
 <<
-/Dest [ 27 0 R /XYZ 19.6063 236.1354 0 ] /Next 108 0 R /Parent 93 0 R /Prev 106 0 R /Title (The "put butter on things" server)
+/Dest [ 28 0 R /XYZ 19.6063 236.1354 0 ] /Next 108 0 R /Parent 93 0 R /Prev 106 0 R /Title (The "put butter on things" server)
 >>
 endobj
 108 0 obj
 <<
-/Dest [ 28 0 R /XYZ 19.6063 236.1354 0 ] /Next 109 0 R /Parent 93 0 R /Prev 107 0 R /Title (and a test for the server)
+/Dest [ 29 0 R /XYZ 19.6063 236.1354 0 ] /Next 109 0 R /Parent 93 0 R /Prev 107 0 R /Title (and a test for the server)
 >>
 endobj
 109 0 obj
 <<
-/Dest [ 29 0 R /XYZ 19.6063 236.1354 0 ] /Next 110 0 R /Parent 93 0 R /Prev 108 0 R /Title (which passes)
+/Dest [ 30 0 R /XYZ 19.6063 236.1354 0 ] /Next 110 0 R /Parent 93 0 R /Prev 108 0 R /Title (which passes)
 >>
 endobj
 110 0 obj
 <<
-/Dest [ 30 0 R /XYZ 19.6063 236.1354 0 ] /Next 111 0 R /Parent 93 0 R /Prev 109 0 R /Title (The sandwich making client)
+/Dest [ 32 0 R /XYZ 19.6063 236.1354 0 ] /Next 111 0 R /Parent 93 0 R /Prev 109 0 R /Title (The sandwich making client)
 >>
 endobj
 111 0 obj
 <<
-/Dest [ 31 0 R /XYZ 19.6063 236.1354 0 ] /Next 112 0 R /Parent 93 0 R /Prev 110 0 R /Title (and our test)
+/Dest [ 33 0 R /XYZ 19.6063 236.1354 0 ] /Next 112 0 R /Parent 93 0 R /Prev 110 0 R /Title (and our test)
 >>
 endobj
 112 0 obj
 <<
-/Dest [ 32 0 R /XYZ 19.6063 236.1354 0 ] /Next 113 0 R /Parent 93 0 R /Prev 111 0 R /Title (which passes)
+/Dest [ 34 0 R /XYZ 19.6063 236.1354 0 ] /Next 113 0 R /Parent 93 0 R /Prev 111 0 R /Title (which passes)
 >>
 endobj
 113 0 obj
 <<
-/Dest [ 33 0 R /XYZ 19.6063 236.1354 0 ] /Next 114 0 R /Parent 93 0 R /Prev 112 0 R /Title (Just the one test)
+/Dest [ 35 0 R /XYZ 19.6063 236.1354 0 ] /Next 114 0 R /Parent 93 0 R /Prev 112 0 R /Title (Just the one test)
 >>
 endobj
 114 0 obj
 <<
-/Dest [ 34 0 R /XYZ 19.6063 236.1354 0 ] /Next 115 0 R /Parent 93 0 R /Prev 113 0 R /Title (But - we're making a real request)
+/Dest [ 36 0 R /XYZ 19.6063 236.1354 0 ] /Next 115 0 R /Parent 93 0 R /Prev 113 0 R /Title (But - we're making a real request)
 >>
 endobj
 115 0 obj
 <<
-/Dest [ 36 0 R /XYZ 19.6063 236.1354 0 ] /Next 116 0 R /Parent 93 0 R /Prev 114 0 R /Title (Let's write a test with pact - 1/2)
+/Dest [ 38 0 R /XYZ 19.6063 236.1354 0 ] /Next 116 0 R /Parent 93 0 R /Prev 114 0 R /Title (Let's write a test with pact - 1/2)
 >>
 endobj
 116 0 obj
 <<
-/Dest [ 37 0 R /XYZ 19.6063 236.1354 0 ] /Next 117 0 R /Parent 93 0 R /Prev 115 0 R /Title (Let's write a test with pact - 2/2)
+/Dest [ 39 0 R /XYZ 19.6063 236.1354 0 ] /Next 117 0 R /Parent 93 0 R /Prev 115 0 R /Title (Let's write a test with pact - 2/2)
 >>
 endobj
 117 0 obj
 <<
-/Dest [ 38 0 R /XYZ 19.6063 236.1354 0 ] /Next 118 0 R /Parent 93 0 R /Prev 116 0 R /Title (and it passes)
+/Dest [ 40 0 R /XYZ 19.6063 236.1354 0 ] /Next 118 0 R /Parent 93 0 R /Prev 116 0 R /Title (and it passes)
 >>
 endobj
 118 0 obj
 <<
-/Dest [ 39 0 R /XYZ 19.6063 236.1354 0 ] /Next 119 0 R /Parent 93 0 R /Prev 117 0 R /Title (New files)
+/Dest [ 41 0 R /XYZ 19.6063 236.1354 0 ] /Next 119 0 R /Parent 93 0 R /Prev 117 0 R /Title (New files)
 >>
 endobj
 119 0 obj
 <<
-/Dest [ 40 0 R /XYZ 19.6063 236.1354 0 ] /Next 120 0 R /Parent 93 0 R /Prev 118 0 R /Title (Contract - 1/3)
+/Dest [ 42 0 R /XYZ 19.6063 236.1354 0 ] /Next 120 0 R /Parent 93 0 R /Prev 118 0 R /Title (Contract - 1/3)
 >>
 endobj
 120 0 obj
 <<
-/Dest [ 41 0 R /XYZ 19.6063 236.1354 0 ] /Next 121 0 R /Parent 93 0 R /Prev 119 0 R /Title (Contract - 2/3)
+/Dest [ 43 0 R /XYZ 19.6063 236.1354 0 ] /Next 121 0 R /Parent 93 0 R /Prev 119 0 R /Title (Contract - 2/3)
 >>
 endobj
 121 0 obj
 <<
-/Dest [ 42 0 R /XYZ 19.6063 236.1354 0 ] /Next 122 0 R /Parent 93 0 R /Prev 120 0 R /Title (Contract - 3/3)
+/Dest [ 44 0 R /XYZ 19.6063 236.1354 0 ] /Next 122 0 R /Parent 93 0 R /Prev 120 0 R /Title (Contract - 3/3)
 >>
 endobj
 122 0 obj
 <<
-/Dest [ 43 0 R /XYZ 19.6063 236.1354 0 ] /Next 123 0 R /Parent 93 0 R /Prev 121 0 R /Title (Testing the contract against the server)
+/Dest [ 45 0 R /XYZ 19.6063 236.1354 0 ] /Next 123 0 R /Parent 93 0 R /Prev 121 0 R /Title (Testing the contract against the server)
 >>
 endobj
 123 0 obj
 <<
-/Dest [ 44 0 R /XYZ 19.6063 236.1354 0 ] /Next 124 0 R /Parent 93 0 R /Prev 122 0 R /Title (Interlude)
+/Dest [ 46 0 R /XYZ 19.6063 236.1354 0 ] /Next 124 0 R /Parent 93 0 R /Prev 122 0 R /Title (Interlude)
 >>
 endobj
 124 0 obj
 <<
-/Dest [ 45 0 R /XYZ 19.6063 236.1354 0 ] /Next 125 0 R /Parent 93 0 R /Prev 123 0 R /Title (But buttering should be idempotent)
+/Dest [ 47 0 R /XYZ 19.6063 236.1354 0 ] /Next 125 0 R /Parent 93 0 R /Prev 123 0 R /Title (But buttering should be idempotent)
 >>
 endobj
 125 0 obj
 <<
-/Dest [ 46 0 R /XYZ 19.6063 236.1354 0 ] /Next 126 0 R /Parent 93 0 R /Prev 124 0 R /Title (Idempotent buttering)
+/Dest [ 48 0 R /XYZ 19.6063 236.1354 0 ] /Next 126 0 R /Parent 93 0 R /Prev 124 0 R /Title (Idempotent buttering)
 >>
 endobj
 126 0 obj
 <<
-/Dest [ 47 0 R /XYZ 19.6063 236.1354 0 ] /Next 127 0 R /Parent 93 0 R /Prev 125 0 R /Title (A new server test)
+/Dest [ 49 0 R /XYZ 19.6063 236.1354 0 ] /Next 127 0 R /Parent 93 0 R /Prev 125 0 R /Title (A new server test)
 >>
 endobj
 127 0 obj
 <<
-/Dest [ 48 0 R /XYZ 19.6063 236.1354 0 ] /Next 128 0 R /Parent 93 0 R /Prev 126 0 R /Title (Our server tests still pass)
+/Dest [ 50 0 R /XYZ 19.6063 236.1354 0 ] /Next 128 0 R /Parent 93 0 R /Prev 126 0 R /Title (Our server tests still pass)
 >>
 endobj
 128 0 obj
 <<
-/Dest [ 49 0 R /XYZ 19.6063 236.1354 0 ] /Next 129 0 R /Parent 93 0 R /Prev 127 0 R /Title (We still honour the contract with client1)
+/Dest [ 51 0 R /XYZ 19.6063 236.1354 0 ] /Next 129 0 R /Parent 93 0 R /Prev 127 0 R /Title (We still honour the contract with client1)
 >>
 endobj
 129 0 obj
 <<
-/Dest [ 50 0 R /XYZ 19.6063 236.1354 0 ] /Next 130 0 R /Parent 93 0 R /Prev 128 0 R /Title (client2 wants to use the new ability)
+/Dest [ 52 0 R /XYZ 19.6063 236.1354 0 ] /Next 130 0 R /Parent 93 0 R /Prev 128 0 R /Title (client2 wants to use the new ability)
 >>
 endobj
 130 0 obj
 <<
-/Dest [ 51 0 R /XYZ 19.6063 236.1354 0 ] /Next 131 0 R /Parent 93 0 R /Prev 129 0 R /Title (A new contract test)
+/Dest [ 53 0 R /XYZ 19.6063 236.1354 0 ] /Next 131 0 R /Parent 93 0 R /Prev 129 0 R /Title (A new contract test)
 >>
 endobj
 131 0 obj
 <<
-/Dest [ 52 0 R /XYZ 19.6063 236.1354 0 ] /Next 132 0 R /Parent 93 0 R /Prev 130 0 R /Title (which passes)
+/Dest [ 54 0 R /XYZ 19.6063 236.1354 0 ] /Next 132 0 R /Parent 93 0 R /Prev 130 0 R /Title (which passes)
 >>
 endobj
 132 0 obj
 <<
-/Dest [ 53 0 R /XYZ 19.6063 236.1354 0 ] /Next 133 0 R /Parent 93 0 R /Prev 131 0 R /Title (And here is the new interaction)
+/Dest [ 55 0 R /XYZ 19.6063 236.1354 0 ] /Next 133 0 R /Parent 93 0 R /Prev 131 0 R /Title (And here is the new interaction)
 >>
 endobj
 133 0 obj
 <<
-/Dest [ 54 0 R /XYZ 19.6063 236.1354 0 ] /Next 134 0 R /Parent 93 0 R /Prev 132 0 R /Title (server2 is happy - 1/2)
+/Dest [ 56 0 R /XYZ 19.6063 236.1354 0 ] /Next 134 0 R /Parent 93 0 R /Prev 132 0 R /Title (server2 is happy - 1/2)
 >>
 endobj
 134 0 obj
 <<
-/Dest [ 55 0 R /XYZ 19.6063 236.1354 0 ] /Next 135 0 R /Parent 93 0 R /Prev 133 0 R /Title (server2 is happy - 2/2)
+/Dest [ 57 0 R /XYZ 19.6063 236.1354 0 ] /Next 135 0 R /Parent 93 0 R /Prev 133 0 R /Title (server2 is happy - 2/2)
 >>
 endobj
 135 0 obj
 <<
-/Dest [ 56 0 R /XYZ 19.6063 236.1354 0 ] /Next 136 0 R /Parent 93 0 R /Prev 134 0 R /Title (But the old server and the new contract...)
+/Dest [ 58 0 R /XYZ 19.6063 236.1354 0 ] /Next 136 0 R /Parent 93 0 R /Prev 134 0 R /Title (But the old server and the new contract...)
 >>
 endobj
 136 0 obj
 <<
-/Dest [ 57 0 R /XYZ 19.6063 236.1354 0 ] /Next 137 0 R /Parent 93 0 R /Prev 135 0 R /Title (fails - 1/2)
+/Dest [ 59 0 R /XYZ 19.6063 236.1354 0 ] /Next 137 0 R /Parent 93 0 R /Prev 135 0 R /Title (fails - 1/2)
 >>
 endobj
 137 0 obj
 <<
-/Dest [ 58 0 R /XYZ 19.6063 236.1354 0 ] /Next 138 0 R /Parent 93 0 R /Prev 136 0 R /Title (fails - 1/3)
+/Dest [ 60 0 R /XYZ 19.6063 236.1354 0 ] /Next 138 0 R /Parent 93 0 R /Prev 136 0 R /Title (fails - 1/3)
 >>
 endobj
 138 0 obj
 <<
-/Dest [ 59 0 R /XYZ 19.6063 236.1354 0 ] /Next 139 0 R /Parent 93 0 R /Prev 137 0 R /Title (fails - 2/4)
+/Dest [ 61 0 R /XYZ 19.6063 236.1354 0 ] /Next 139 0 R /Parent 93 0 R /Prev 137 0 R /Title (fails - 2/4)
 >>
 endobj
 139 0 obj
 <<
-/Dest [ 60 0 R /XYZ 19.6063 236.1354 0 ] /Next 140 0 R /Parent 93 0 R /Prev 138 0 R /Title (Which is good!)
+/Dest [ 62 0 R /XYZ 19.6063 236.1354 0 ] /Next 140 0 R /Parent 93 0 R /Prev 138 0 R /Title (Which is good!)
 >>
 endobj
 140 0 obj
 <<
-/Dest [ 61 0 R /XYZ 19.6063 236.1354 0 ] /Next 141 0 R /Parent 93 0 R /Prev 139 0 R /Title (Interlude)
+/Dest [ 63 0 R /XYZ 19.6063 236.1354 0 ] /Next 141 0 R /Parent 93 0 R /Prev 139 0 R /Title (Interlude)
 >>
 endobj
 141 0 obj
 <<
-/Dest [ 62 0 R /XYZ 19.6063 236.1354 0 ] /Next 142 0 R /Parent 93 0 R /Prev 140 0 R /Title (What if it's not that simple)
+/Dest [ 64 0 R /XYZ 19.6063 236.1354 0 ] /Next 142 0 R /Parent 93 0 R /Prev 140 0 R /Title (What if it's not that simple)
 >>
 endobj
 142 0 obj
 <<
-/Dest [ 63 0 R /XYZ 19.6063 236.1354 0 ] /Next 143 0 R /Parent 93 0 R /Prev 141 0 R /Title (Butter information)
+/Dest [ 65 0 R /XYZ 19.6063 236.1354 0 ] /Next 143 0 R /Parent 93 0 R /Prev 141 0 R /Title (Butter information)
 >>
 endobj
 143 0 obj
 <<
-/Dest [ 64 0 R /XYZ 19.6063 236.1354 0 ] /Next 144 0 R /Parent 93 0 R /Prev 142 0 R /Title (A new server test)
+/Dest [ 66 0 R /XYZ 19.6063 236.1354 0 ] /Next 144 0 R /Parent 93 0 R /Prev 142 0 R /Title (A new server test)
 >>
 endobj
 144 0 obj
 <<
-/Dest [ 65 0 R /XYZ 19.6063 236.1354 0 ] /Next 145 0 R /Parent 93 0 R /Prev 143 0 R /Title (Which passes)
+/Dest [ 67 0 R /XYZ 19.6063 236.1354 0 ] /Next 145 0 R /Parent 93 0 R /Prev 143 0 R /Title (Which passes)
 >>
 endobj
 145 0 obj
 <<
-/Dest [ 66 0 R /XYZ 19.6063 236.1354 0 ] /Next 146 0 R /Parent 93 0 R /Prev 144 0 R /Title (And in our client)
+/Dest [ 68 0 R /XYZ 19.6063 236.1354 0 ] /Next 146 0 R /Parent 93 0 R /Prev 144 0 R /Title (And in our client)
 >>
 endobj
 146 0 obj
 <<
-/Dest [ 67 0 R /XYZ 19.6063 236.1354 0 ] /Next 147 0 R /Parent 93 0 R /Prev 145 0 R /Title (Which passes)
+/Dest [ 69 0 R /XYZ 19.6063 236.1354 0 ] /Next 147 0 R /Parent 93 0 R /Prev 145 0 R /Title (Which passes)
 >>
 endobj
 147 0 obj
 <<
-/Dest [ 68 0 R /XYZ 19.6063 236.1354 0 ] /Next 148 0 R /Parent 93 0 R /Prev 146 0 R /Title (But we want a contract test)
+/Dest [ 70 0 R /XYZ 19.6063 236.1354 0 ] /Next 148 0 R /Parent 93 0 R /Prev 146 0 R /Title (But we want a contract test)
 >>
 endobj
 148 0 obj
 <<
-/Dest [ 69 0 R /XYZ 19.6063 236.1354 0 ] /Next 149 0 R /Parent 93 0 R /Prev 147 0 R /Title (And the test)
+/Dest [ 71 0 R /XYZ 19.6063 236.1354 0 ] /Next 149 0 R /Parent 93 0 R /Prev 147 0 R /Title (And the test)
 >>
 endobj
 149 0 obj
 <<
-/Dest [ 70 0 R /XYZ 19.6063 236.1354 0 ] /Next 150 0 R /Parent 93 0 R /Prev 148 0 R /Title (And here is the new interaction)
+/Dest [ 72 0 R /XYZ 19.6063 236.1354 0 ] /Next 150 0 R /Parent 93 0 R /Prev 148 0 R /Title (And here is the new interaction)
 >>
 endobj
 150 0 obj
 <<
-/Dest [ 72 0 R /XYZ 19.6063 236.1354 0 ] /Next 151 0 R /Parent 93 0 R /Prev 149 0 R /Title (server3 is happy)
+/Dest [ 74 0 R /XYZ 19.6063 236.1354 0 ] /Next 151 0 R /Parent 93 0 R /Prev 149 0 R /Title (server3 is happy)
 >>
 endobj
 151 0 obj
 <<
-/Dest [ 74 0 R /XYZ 19.6063 236.1354 0 ] /Next 152 0 R /Parent 93 0 R /Prev 150 0 R /Title (Interlude)
+/Dest [ 76 0 R /XYZ 19.6063 236.1354 0 ] /Next 152 0 R /Parent 93 0 R /Prev 150 0 R /Title (Interlude)
 >>
 endobj
 152 0 obj
 <<
-/Dest [ 77 0 R /XYZ 19.6063 236.1354 0 ] /Next 153 0 R /Parent 93 0 R /Prev 151 0 R /Title (How to share the contract)
+/Dest [ 79 0 R /XYZ 19.6063 236.1354 0 ] /Next 153 0 R /Parent 93 0 R /Prev 151 0 R /Title (How to share the contract)
 >>
 endobj
 153 0 obj
 <<
-/Dest [ 78 0 R /XYZ 19.6063 236.1354 0 ] /Next 154 0 R /Parent 93 0 R /Prev 152 0 R /Title (Other benefits)
+/Dest [ 80 0 R /XYZ 19.6063 236.1354 0 ] /Next 154 0 R /Parent 93 0 R /Prev 152 0 R /Title (Other benefits)
 >>
 endobj
 154 0 obj
 <<
-/Dest [ 79 0 R /XYZ 19.6063 236.1354 0 ] /Next 155 0 R /Parent 93 0 R /Prev 153 0 R /Title (Multiple programming languages)
+/Dest [ 81 0 R /XYZ 19.6063 236.1354 0 ] /Next 155 0 R /Parent 93 0 R /Prev 153 0 R /Title (Multiple programming languages)
 >>
 endobj
 155 0 obj
@@ -1272,13 +1272,13 @@ endobj
 endobj
 156 0 obj
 <<
-/Count 65 /Kids [ 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 19 0 R 
-  20 0 R 21 0 R 22 0 R 24 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 
-  33 0 R 34 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 
-  44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 
-  54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 
-  64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 
-  74 0 R 77 0 R 78 0 R 79 0 R 90 0 R ] /Type /Pages
+/Count 65 /Kids [ 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 19 0 R 20 0 R 
+  21 0 R 22 0 R 23 0 R 25 0 R 28 0 R 29 0 R 30 0 R 32 0 R 33 0 R 34 0 R 
+  35 0 R 36 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 
+  46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 
+  56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 
+  66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 
+  76 0 R 79 0 R 80 0 R 81 0 R 90 0 R ] /Type /Pages
 >>
 endobj
 157 0 obj
@@ -1897,7 +1897,7 @@ endstream
 endobj
 165 0 obj
 <<
-/Length 1006
+/Length 1102
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -1917,8 +1917,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (Use a library like VCR or Betamax to record the actual responses) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Use a library like ) Tj .105882 .482353 .533333 rg (VCR) Tj 0 0 0 rg ( or ) Tj .105882 .482353 .533333 rg (Betamax) Tj 0 0 0 rg ( to record the actual responses) Tj T* ET
 Q
 Q
 q
@@ -1966,7 +1965,7 @@ endstream
 endobj
 166 0 obj
 <<
-/Length 945
+/Length 1353
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -1991,26 +1990,48 @@ BT 1 0 0 1 0 16.8 Tm /F1 12 Tf 14.4 TL (If we're lucky enough to have at least s
 Q
 Q
 q
-1 0 0 1 19.6063 137.3354 cm
+1 0 0 1 19.6063 151.7354 cm
 q
-BT 1 0 0 1 0 16.8 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Take the same approach as for recording, but ) Tj /F3 12 Tf (also) Tj /F1 12 Tf ( check that the server) Tj T* (agrees it can honour those recordnings) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (Instead of recording the response to our request, we describe it) Tj T* ET
 Q
 Q
 q
-1 0 0 1 19.6063 112.9354 cm
+1 0 0 1 19.6063 127.3354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (Or, actually, we describe what we care about in the response) Tj T* ET
+Q
+Q
+q
+1 0 0 1 19.6063 102.9354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (We can then test the client using that description as if it were a recording) Tj T* ET
+Q
+Q
+q
+1 0 0 1 19.6063 78.53543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (And we can test that the server agrees that it can honour that description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 19.6063 54.13543 cm
 q
 BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (In other words, we have a ) Tj /F2 12 Tf (contract) Tj /F1 12 Tf ( between client and server.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 19.6063 102.9354 cm
+1 0 0 1 19.6063 44.13543 cm
 Q
  
 endstream
 endobj
 167 0 obj
 <<
-/Length 1438
+/Length 1595
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -2024,24 +2045,31 @@ Q
 q
 1 0 0 1 19.6063 210.9354 cm
 q
-BT 1 0 0 1 0 4.2 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (But what about that server version?) Tj T* ET
+BT 1 0 0 1 0 4.2 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (But what about the server version?) Tj T* ET
 Q
 Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (Basically) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (Different versions of the server may still behave differently) Tj T* ET
 Q
-Q
-q
-1 0 0 1 19.6063 180.5354 cm
-Q
-q
-1 0 0 1 19.6063 180.5354 cm
 Q
 q
 1 0 0 1 19.6063 166.1354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL (But we can:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 19.6063 156.1354 cm
+Q
+q
+1 0 0 1 19.6063 156.1354 cm
+Q
+q
+1 0 0 1 19.6063 141.7354 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2062,10 +2090,10 @@ q
 Q
 Q
 q
-1 0 0 1 19.6063 164.1354 cm
+1 0 0 1 19.6063 139.7354 cm
 Q
 q
-1 0 0 1 19.6063 149.7354 cm
+1 0 0 1 19.6063 125.3354 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2086,10 +2114,10 @@ q
 Q
 Q
 q
-1 0 0 1 19.6063 147.7354 cm
+1 0 0 1 19.6063 123.3354 cm
 Q
 q
-1 0 0 1 19.6063 133.3354 cm
+1 0 0 1 19.6063 108.9354 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2110,10 +2138,10 @@ q
 Q
 Q
 q
-1 0 0 1 19.6063 123.3354 cm
+1 0 0 1 19.6063 98.93543 cm
 Q
 q
-1 0 0 1 19.6063 123.3354 cm
+1 0 0 1 19.6063 98.93543 cm
 Q
  
 endstream
@@ -2236,7 +2264,7 @@ Q
 q
 1 0 0 1 19.6063 92.98898 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's create ) Tj /F4 12 Tf (server1) Tj /F1 12 Tf ( and ) Tj /F4 12 Tf (client1) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's create ) Tj /F3 12 Tf (server1) Tj /F1 12 Tf ( and ) Tj /F3 12 Tf (client1) Tj T* ET
 Q
 Q
 q
@@ -2358,7 +2386,7 @@ n 33.6 0 4.8 9.6 re f*
 n 38.4 0 14.4 9.6 re f*
 .960784 .960784 .862745 rg
 n 52.8 0 9.6 9.6 re f*
-BT 1 0 0 1 0 107.2 Tm 9.6 TL /F5 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F4 8 Tf 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (from) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (bottle) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (Bottle) Tj  T*  T* (app) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Bottle) Tj (\(\)) Tj  T*  T* .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/butter/) Tj (<) Tj (substrate) Tj (>) Tj (') Tj 0 0 0 rg (\)) Tj  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (butter) Tj 0 0 0 rg (\() Tj (substrate) Tj (\):) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (return) Tj /F4 8 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (substrate) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg ( and butter') Tj 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (if) Tj /F4 8 Tf 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (__name__) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('__main__') Tj 0 0 0 rg (:) Tj  T* (    ) Tj (app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (run) Tj (\(\)) Tj T* ET
+BT 1 0 0 1 0 107.2 Tm 9.6 TL /F4 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F3 8 Tf 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (from) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (bottle) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (Bottle) Tj  T*  T* (app) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Bottle) Tj (\(\)) Tj  T*  T* .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/butter/) Tj (<) Tj (substrate) Tj (>) Tj (') Tj 0 0 0 rg (\)) Tj  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (butter) Tj 0 0 0 rg (\() Tj (substrate) Tj (\):) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (return) Tj /F3 8 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (substrate) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg ( and butter') Tj 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (if) Tj /F3 8 Tf 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (__name__) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('__main__') Tj 0 0 0 rg (:) Tj  T* (    ) Tj (app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (run) Tj (\(\)) Tj T* ET
 Q
 Q
 Q
@@ -2433,7 +2461,7 @@ n 120 0 4.8 9.6 re f*
 n 129.6 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 144 0 86.4 9.6 re f*
-BT 1 0 0 1 0 49.6 Tm 9.6 TL /F5 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F4 8 Tf 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (from) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (server1) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (butter) Tj  T*  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_butter) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (butter) Tj (\() Tj .729412 .129412 .129412 rg ('bread') Tj 0 0 0 rg (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 49.6 Tm 9.6 TL /F4 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F3 8 Tf 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (from) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (server1) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (butter) Tj  T*  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_butter) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (butter) Tj (\() Tj .729412 .129412 .129412 rg ('bread') Tj 0 0 0 rg (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -2504,7 +2532,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest server1_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (server1_tests.py .                                                       ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.05s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest server1_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (server1_tests.py .                                                       ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.05s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -2610,7 +2638,7 @@ Q
 q
 1 0 0 1 19.6063 66.58898 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (And actually, we're really only interested in the ) Tj /F3 12 Tf (test) Tj /F1 12 Tf ( for that request) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (And actually, we're really only interested in the ) Tj /F6 12 Tf (test) Tj /F1 12 Tf ( for that request) Tj T* ET
 Q
 Q
 q
@@ -2735,7 +2763,7 @@ n 105.6 0 4.8 9.6 re f*
 n 115.2 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 129.6 0 86.4 9.6 re f*
-BT 1 0 0 1 0 88 Tm 9.6 TL /F5 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F4 8 Tf 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (requests) Tj /F4 8 Tf 0 0 0 rg  T*  T* (BASE_URL) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('http://localhost:8080') Tj 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (SERVER_BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/butter/bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (status_code) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 88 Tm 9.6 TL /F4 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F3 8 Tf 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (requests) Tj /F3 8 Tf 0 0 0 rg  T*  T* (BASE_URL) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('http://localhost:8080') Tj 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (SERVER_BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/butter/bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (status_code) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -2806,7 +2834,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest client1_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (client1_tests.py .                                                       ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.10s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest client1_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (client1_tests.py .                                                       ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.10s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -2873,7 +2901,7 @@ endstream
 endobj
 178 0 obj
 <<
-/Length 843
+/Length 654
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -2905,14 +2933,7 @@ BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL -0.145153 Tw (So let's look at how we can 
 Q
 Q
 q
-1 0 0 1 19.6063 127.3354 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 16.8 Tm /F1 12 Tf 14.4 TL (\(if you want to do the same for VCR or Betamax, I'll give links to them at the) Tj T* (end\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 19.6063 117.3354 cm
+1 0 0 1 19.6063 156.1354 cm
 Q
  
 endstream
@@ -3034,7 +3055,7 @@ n 0 0 62.4 9.6 re f*
 n 67.2 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 76.8 0 110.4 9.6 re f*
-BT 1 0 0 1 0 107.2 Tm 9.6 TL /F5 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F4 8 Tf 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (atexit) Tj /F4 8 Tf 0 0 0 rg  T* /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (requests) Tj /F4 8 Tf 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (from) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (pact) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (Consumer) Tj (,) Tj ( ) Tj (Provider) Tj  T*  T* (pact) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Consumer) Tj (\() Tj .729412 .129412 .129412 rg ('sandwich-maker') Tj 0 0 0 rg (\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (has_pact_with) Tj (\() Tj (Provider) Tj (\() Tj .729412 .129412 .129412 rg ('Butterer') Tj 0 0 0 rg (\)\)) Tj  T* (pact) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (start_service) Tj (\(\)) Tj  T* (atexit) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (register) Tj (\() Tj (pact) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (stop_service) Tj (\)) Tj  T*  T* (PACT_BASE_URL) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('http://localhost:1234') Tj T* ET
+BT 1 0 0 1 0 107.2 Tm 9.6 TL /F4 8 Tf .25098 .501961 .501961 rg (#!/usr/bin/env python3) Tj /F3 8 Tf 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (atexit) Tj /F3 8 Tf 0 0 0 rg  T* /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (requests) Tj /F3 8 Tf 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (from) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (pact) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (Consumer) Tj (,) Tj ( ) Tj (Provider) Tj  T*  T* (pact) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Consumer) Tj (\() Tj .729412 .129412 .129412 rg ('sandwich-maker') Tj 0 0 0 rg (\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (has_pact_with) Tj (\() Tj (Provider) Tj (\() Tj .729412 .129412 .129412 rg ('Butterer') Tj 0 0 0 rg (\)\)) Tj  T* (pact) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (start_service) Tj (\(\)) Tj  T* (atexit) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (register) Tj (\() Tj (pact) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (stop_service) Tj (\)) Tj  T*  T* (PACT_BASE_URL) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('http://localhost:1234') Tj T* ET
 Q
 Q
 Q
@@ -3191,7 +3212,7 @@ n 86.4 0 19.2 9.6 re f*
 n 110.4 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 124.8 0 86.4 9.6 re f*
-BT 1 0 0 1 0 126.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (BREAD_AND_BUTTER) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj 0 0 0 rg  T*  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request to butter bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/butter/bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BREAD_AND_BUTTER) Tj (\)\)) Tj  T*  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (with) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/butter/bread') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 126.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (BREAD_AND_BUTTER) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj 0 0 0 rg  T*  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request to butter bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/butter/bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BREAD_AND_BUTTER) Tj (\)\)) Tj  T*  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (with) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/butter/bread') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -3262,7 +3283,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest client1_contract_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (client1_contract_tests.py .                                              ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.75s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest client1_contract_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1) Tj T* (collected ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( item) Tj T*  T* (client1_contract_tests.py .                                              ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.75s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -3320,7 +3341,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (A log file: ) Tj /F4 12 Tf (pact-mock-service.log) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (A log file: ) Tj /F3 12 Tf (pact-mock-service.log) Tj T* ET
 Q
 Q
 q
@@ -3343,7 +3364,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (A contract file: ) Tj /F4 12 Tf (sandwich-maker-butterer.json) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (A contract file: ) Tj /F3 12 Tf (sandwich-maker-butterer.json) Tj T* ET
 Q
 Q
 q
@@ -3421,7 +3442,7 @@ n 48 9.6 4.8 9.6 re f*
 n 57.6 9.6 48 9.6 re f*
 .960784 .960784 .862745 rg
 n 9.6 0 9.6 9.6 re f*
-BT 1 0 0 1 0 59.2 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("consumer") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("name") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("sandwich-maker") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("provider") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("name") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("Butterer") Tj 0 0 0 rg  T* (  ) Tj (},) Tj T* ET
+BT 1 0 0 1 0 59.2 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("consumer") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("name") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("sandwich-maker") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("provider") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("name") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("Butterer") Tj 0 0 0 rg  T* (  ) Tj (},) Tj T* ET
 Q
 Q
 Q
@@ -3546,7 +3567,7 @@ n 19.2 19.2 4.8 9.6 re f*
 n 9.6 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 9.6 9.6 re f*
-BT 1 0 0 1 0 145.6 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg ("interactions") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ([) Tj  T* (  ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("description") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request to butter bread") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("providerState") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to butter bread") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("request") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("method") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("path") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/butter/bread") Tj 0 0 0 rg  T* (    ) Tj (},) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("response") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("status") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("headers") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj (},) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("body") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (],) Tj T* ET
+BT 1 0 0 1 0 145.6 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg ("interactions") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ([) Tj  T* (  ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("description") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request to butter bread") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("providerState") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to butter bread") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("request") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("method") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("path") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/butter/bread") Tj 0 0 0 rg  T* (    ) Tj (},) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("response") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("status") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("headers") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj (},) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("body") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (],) Tj T* ET
 Q
 Q
 Q
@@ -3615,7 +3636,7 @@ n 19.2 19.2 4.8 9.6 re f*
 n 9.6 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 4.8 9.6 re f*
-BT 1 0 0 1 0 49.6 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (  ) Tj /F6 8 Tf 0 .501961 0 rg ("metadata") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("pactSpecification") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("version") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("2.0.0") Tj 0 0 0 rg  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
+BT 1 0 0 1 0 49.6 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (  ) Tj /F5 8 Tf 0 .501961 0 rg ("metadata") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("pactSpecification") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("version") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("2.0.0") Tj 0 0 0 rg  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
 Q
 Q
 Q
@@ -3649,7 +3670,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (With the server running \(at ) Tj /F4 12 Tf (http://localhost:8080) Tj /F1 12 Tf (\):) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (With the server running \(at ) Tj /F3 12 Tf (http://localhost:8080) Tj /F1 12 Tf (\):) Tj T* ET
 Q
 Q
 q
@@ -3684,7 +3705,7 @@ n 124.8 28.8 14.4 9.6 re f*
 n 0 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 72 0 4.8 9.6 re f*
-BT 1 0 0 1 0 126.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pact-verifier --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client1/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client1/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( interaction, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
+BT 1 0 0 1 0 126.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pact-verifier --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client1/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client1/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( interaction, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
 Q
 Q
 Q
@@ -3761,7 +3782,7 @@ Q
 q
 1 0 0 1 19.6063 107.389 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's update our code to give ) Tj /F4 12 Tf (server2) Tj /F1 12 Tf ( and ) Tj /F4 12 Tf (client2) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's update our code to give ) Tj /F3 12 Tf (server2) Tj /F1 12 Tf ( and ) Tj /F3 12 Tf (client2) Tj T* ET
 Q
 Q
 q
@@ -3869,7 +3890,7 @@ n 86.4 0 43.2 9.6 re f*
 n 129.6 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 134.4 0 57.6 9.6 re f*
-BT 1 0 0 1 0 49.6 Tm 9.6 TL /F4 8 Tf .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/butter/) Tj (<) Tj (substrate) Tj (>) Tj (') Tj 0 0 0 rg (\)) Tj  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (butter) Tj 0 0 0 rg (\() Tj (substrate) Tj (\):) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (if) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (substrate) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (endswith) Tj (\() Tj .729412 .129412 .129412 rg ('butter') Tj 0 0 0 rg (\):) Tj  T* (        ) Tj /F6 8 Tf 0 .501961 0 rg (return) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (substrate) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (else) Tj /F4 8 Tf 0 0 0 rg (:) Tj  T* (        ) Tj /F6 8 Tf 0 .501961 0 rg (return) Tj /F4 8 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (substrate) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg ( and butter') Tj T* ET
+BT 1 0 0 1 0 49.6 Tm 9.6 TL /F3 8 Tf .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/butter/) Tj (<) Tj (substrate) Tj (>) Tj (') Tj 0 0 0 rg (\)) Tj  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (butter) Tj 0 0 0 rg (\() Tj (substrate) Tj (\):) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (if) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (substrate) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (endswith) Tj (\() Tj .729412 .129412 .129412 rg ('butter') Tj 0 0 0 rg (\):) Tj  T* (        ) Tj /F5 8 Tf 0 .501961 0 rg (return) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (substrate) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (else) Tj /F3 8 Tf 0 0 0 rg (:) Tj  T* (        ) Tj /F5 8 Tf 0 .501961 0 rg (return) Tj /F3 8 Tf 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (substrate) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg ( and butter') Tj T* ET
 Q
 Q
 Q
@@ -3934,7 +3955,7 @@ n 172.8 0 4.8 9.6 re f*
 n 182.4 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 196.8 0 86.4 9.6 re f*
-BT 1 0 0 1 0 11.2 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_already_buttered) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (butter) Tj (\() Tj .729412 .129412 .129412 rg ('bread and butter') Tj 0 0 0 rg (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 11.2 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_already_buttered) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (butter) Tj (\() Tj .729412 .129412 .129412 rg ('bread and butter') Tj 0 0 0 rg (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -4005,7 +4026,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest server2_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server2) Tj T* (collected ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( items) Tj T*  T* (server2_tests.py ..                                                      ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.04s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest server2_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server2) Tj T* (collected ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( items) Tj T*  T* (server2_tests.py ..                                                      ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.04s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -4070,7 +4091,7 @@ n 124.8 28.8 14.4 9.6 re f*
 n 0 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 72 0 4.8 9.6 re f*
-BT 1 0 0 1 0 136 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client1/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client1/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( interaction, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
+BT 1 0 0 1 0 136 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client1/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client1/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (1) Tj 0 0 0 rg ( interaction, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
 Q
 Q
 Q
@@ -4186,7 +4207,7 @@ n 105.6 0 4.8 9.6 re f*
 n 115.2 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 129.6 0 86.4 9.6 re f*
-BT 1 0 0 1 0 30.4 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering_twice) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/butter/bread%20and%20butter') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (status_code) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 30.4 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering_twice) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/butter/bread%20and%20butter') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (status_code) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg (\() Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj (\)) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -4341,7 +4362,7 @@ n 86.4 0 19.2 9.6 re f*
 n 110.4 0 9.6 9.6 re f*
 .960784 .960784 .862745 rg
 n 124.8 0 86.4 9.6 re f*
-BT 1 0 0 1 0 107.2 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering_twice) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request to butter buttered bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/butter/bread) Tj /F6 8 Tf .733333 .4 .533333 rg (%20a) Tj /F4 8 Tf .729412 .129412 .129412 rg (nd%20butter') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BREAD_AND_BUTTER) Tj (\)\)) Tj  T*  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (with) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/butter/bread%20and%20butter') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
+BT 1 0 0 1 0 107.2 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_buttering_twice) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request to butter buttered bread') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/butter/bread) Tj /F5 8 Tf .733333 .4 .533333 rg (%20a) Tj /F3 8 Tf .729412 .129412 .129412 rg (nd%20butter') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BREAD_AND_BUTTER) Tj (\)\)) Tj  T*  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (with) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/butter/bread%20and%20butter') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (text) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('bread and butter') Tj T* ET
 Q
 Q
 Q
@@ -4412,7 +4433,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (pytest client2_contract_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client2) Tj T* (collected ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( items) Tj T*  T* (client2_contract_tests.py ..                                             ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.79s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (pytest client2_contract_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client2) Tj T* (collected ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( items) Tj T*  T* (client2_contract_tests.py ..                                             ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.79s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -4446,7 +4467,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (In ) Tj /F4 12 Tf (client2/sandwich-maker-butterer.json) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (In ) Tj /F3 12 Tf (client2/sandwich-maker-butterer.json) Tj T* ET
 Q
 Q
 q
@@ -4535,7 +4556,7 @@ n 57.6 19.2 86.4 9.6 re f*
 n 9.6 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 4.8 9.6 re f*
-BT 1 0 0 1 0 126.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("description") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request to butter buttered bread") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("providerState") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to butter bread again") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("request") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("method") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("path") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/butter/bread%20and%20butter") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("response") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("status") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("headers") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj (},) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("body") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
+BT 1 0 0 1 0 126.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("description") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request to butter buttered bread") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("providerState") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to butter bread again") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("request") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("method") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("path") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/butter/bread%20and%20butter") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("response") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("status") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("headers") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj (},) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("body") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
 Q
 Q
 Q
@@ -4569,7 +4590,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (While running server2 at ) Tj /F4 12 Tf (http://localhost:8080) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (While running server2 at ) Tj /F3 12 Tf (http://localhost:8080) Tj T* ET
 Q
 Q
 q
@@ -4602,7 +4623,7 @@ n 105.6 19.2 14.4 9.6 re f*
 n 196.8 19.2 120 9.6 re f*
 .960784 .960784 .862745 rg
 n 124.8 9.6 14.4 9.6 re f*
-BT 1 0 0 1 0 116.8 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client2/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* ET
+BT 1 0 0 1 0 116.8 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client2/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* ET
 Q
 Q
 Q
@@ -4659,7 +4680,7 @@ n 124.8 28.8 14.4 9.6 re f*
 n 0 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 76.8 0 4.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (2) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (2) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
 Q
 Q
 Q
@@ -4720,7 +4741,7 @@ n 105.6 19.2 14.4 9.6 re f*
 n 196.8 19.2 120 9.6 re f*
 .960784 .960784 .862745 rg
 n 124.8 9.6 14.4 9.6 re f*
-BT 1 0 0 1 0 116.8 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client2/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* ET
+BT 1 0 0 1 0 116.8 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client2/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* ET
 Q
 Q
 Q
@@ -4779,7 +4800,7 @@ n 144 0 4.8 9.6 re f*
 n 192 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 196.8 0 4.8 9.6 re f*
-BT 1 0 0 1 0 59.2 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (FAILED - ) Tj .4 .4 .4 rg (1) Tj (\)) Tj T* ET
+BT 1 0 0 1 0 59.2 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body ) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (FAILED - ) Tj .4 .4 .4 rg (1) Tj (\)) Tj T* ET
 Q
 Q
 Q
@@ -4832,7 +4853,7 @@ n 14.4 134.4 4.8 9.6 re f*
 n 120 105.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 187.2 105.6 4.8 9.6 re f*
-BT 1 0 0 1 0 155.2 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (Failures:) Tj T*  T* (  ) Tj .4 .4 .4 rg (1) Tj (\)) Tj 0 0 0 rg ( Verifying a pact between sandwich-maker and Butterer Given We want to butter bread) Tj T* (     again a request to butter buttered bread with GET /butter/bread%20and%20butter) Tj T* (     returns a response which has a matching body) Tj T* (    Failure/Error: expect) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (response_body) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (.to match_term expected_response_body, diff_options, example) Tj T*  T* (      Actual: bread and butter and butter) Tj T*  T* (      Diff) Tj T* (      --------------------------------------) Tj T* (      Key: - is expected) Tj T* (            + is actual) Tj T* (      Matching keys and values are not shown) Tj T*  T* (      -bread and butter) Tj T* (      +bread and butter and butter) Tj T* ET
+BT 1 0 0 1 0 155.2 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (Failures:) Tj T*  T* (  ) Tj .4 .4 .4 rg (1) Tj (\)) Tj 0 0 0 rg ( Verifying a pact between sandwich-maker and Butterer Given We want to butter bread) Tj T* (     again a request to butter buttered bread with GET /butter/bread%20and%20butter) Tj T* (     returns a response which has a matching body) Tj T* (    Failure/Error: expect) Tj .4 .4 .4 rg (\() Tj 0 0 0 rg (response_body) Tj .4 .4 .4 rg (\)) Tj 0 0 0 rg (.to match_term expected_response_body, diff_options, example) Tj T*  T* (      Actual: bread and butter and butter) Tj T*  T* (      Diff) Tj T* (      --------------------------------------) Tj T* (      Key: - is expected) Tj T* (            + is actual) Tj T* (      Matching keys and values are not shown) Tj T*  T* (      -bread and butter) Tj T* (      +bread and butter and butter) Tj T* ET
 Q
 Q
 Q
@@ -4905,7 +4926,7 @@ n 48 9.6 4.8 9.6 re f*
 n 336 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 345.6 9.6 re f*
-BT 1 0 0 1 0 107.2 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (      Description of differences) Tj T* (      --------------------------------------) Tj T* (      * Expected ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg ( but got ) Tj .729412 .129412 .129412 rg ("bread and butter and butter") Tj 0 0 0 rg ( at $) Tj T*  T* .4 .4 .4 rg (2) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( failure) Tj T*  T* (Failed interactions:) Tj T*  T* .098039 .090196 .486275 rg (PACT_DESCRIPTION) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('a request to butter buttered bread') Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (PACT_PROVIDER_STATE) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('We want to) Tj T* (butter bread again') Tj 0 0 0 rg ( /Users/tibs/Library/Caches/pypoetry/virtualenvs/pact-talk-zwt4AdHO-py3.8/bin/pact-verifier) Tj T* (--pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080) Tj T* /F5 8 Tf .25098 .501961 .501961 rg (# A request to butter buttered bread given We want to butter bread again) Tj T* ET
+BT 1 0 0 1 0 107.2 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (      Description of differences) Tj T* (      --------------------------------------) Tj T* (      * Expected ) Tj .729412 .129412 .129412 rg ("bread and butter") Tj 0 0 0 rg ( but got ) Tj .729412 .129412 .129412 rg ("bread and butter and butter") Tj 0 0 0 rg ( at $) Tj T*  T* .4 .4 .4 rg (2) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (1) Tj 0 0 0 rg ( failure) Tj T*  T* (Failed interactions:) Tj T*  T* .098039 .090196 .486275 rg (PACT_DESCRIPTION) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('a request to butter buttered bread') Tj 0 0 0 rg ( ) Tj .098039 .090196 .486275 rg (PACT_PROVIDER_STATE) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('We want to) Tj T* (butter bread again') Tj 0 0 0 rg ( /Users/tibs/Library/Caches/pypoetry/virtualenvs/pact-talk-zwt4AdHO-py3.8/bin/pact-verifier) Tj T* (--pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client2/sandwich-maker-butterer.json --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080) Tj T* /F4 8 Tf .25098 .501961 .501961 rg (# A request to butter buttered bread given We want to butter bread again) Tj T* ET
 Q
 Q
 Q
@@ -4939,7 +4960,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F4 12 Tf 0 0 0 rg (server1) Tj /F1 12 Tf ( does not support the contract required by ) Tj /F4 12 Tf (client2) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F3 12 Tf 0 0 0 rg (server1) Tj /F1 12 Tf ( does not support the contract required by ) Tj /F3 12 Tf (client2) Tj T* ET
 Q
 Q
 q
@@ -5006,7 +5027,7 @@ Q
 q
 1 0 0 1 19.6063 131.789 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's update our code to give ) Tj /F4 12 Tf (server3) Tj /F1 12 Tf ( and ) Tj /F4 12 Tf (client3) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Let's update our code to give ) Tj /F3 12 Tf (server3) Tj /F1 12 Tf ( and ) Tj /F3 12 Tf (client3) Tj T* ET
 Q
 Q
 q
@@ -5121,7 +5142,7 @@ n 235.2 19.2 14.4 9.6 re f*
 n 38.4 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 19.2 0 4.8 9.6 re f*
-BT 1 0 0 1 0 59.2 Tm 9.6 TL /F4 8 Tf .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/info') Tj 0 0 0 rg (\)) Tj  T* /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (return) Tj /F4 8 Tf 0 0 0 rg ( ) Tj ({) Tj  T* (            ) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (:) Tj ( ) Tj (random) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (choice) Tj (\([) Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0.01%') Tj 0 0 0 rg (]\),) Tj  T* (            ) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (:) Tj ( ) Tj (random) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (choice) Tj (\([) Tj /F6 8 Tf 0 .501961 0 rg (True) Tj /F4 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (False) Tj /F4 8 Tf 0 0 0 rg (]\),) Tj  T* (        ) Tj (}) Tj  T* (    ) Tj (\)) Tj T* ET
+BT 1 0 0 1 0 59.2 Tm 9.6 TL /F3 8 Tf .666667 .133333 1 rg (@app) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (route) Tj (\() Tj .729412 .129412 .129412 rg ('/info') Tj 0 0 0 rg (\)) Tj  T* /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (return) Tj /F3 8 Tf 0 0 0 rg ( ) Tj ({) Tj  T* (            ) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (:) Tj ( ) Tj (random) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (choice) Tj (\([) Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0.01%') Tj 0 0 0 rg (]\),) Tj  T* (            ) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (:) Tj ( ) Tj (random) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (choice) Tj (\([) Tj /F5 8 Tf 0 .501961 0 rg (True) Tj /F3 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (False) Tj /F3 8 Tf 0 0 0 rg (]\),) Tj  T* (        ) Tj (}) Tj  T* (    ) Tj (\)) Tj T* ET
 Q
 Q
 Q
@@ -5224,7 +5245,7 @@ n 177.6 0 4.8 9.6 re f*
 n 187.2 0 24 9.6 re f*
 .960784 .960784 .862745 rg
 n 211.2 0 4.8 9.6 re f*
-BT 1 0 0 1 0 30.4 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (info) Tj (\(\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj ( ) Tj /F6 8 Tf .666667 .133333 1 rg (in) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (\() Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0.9%') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F6 8 Tf .666667 .133333 1 rg (in) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F6 8 Tf 0 .501961 0 rg (True) Tj /F4 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (False) Tj /F4 8 Tf 0 0 0 rg (\)) Tj T* ET
+BT 1 0 0 1 0 30.4 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (info) Tj (\(\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj ( ) Tj /F5 8 Tf .666667 .133333 1 rg (in) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (\() Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0.9%') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F5 8 Tf .666667 .133333 1 rg (in) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F5 8 Tf 0 .501961 0 rg (True) Tj /F3 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (False) Tj /F3 8 Tf 0 0 0 rg (\)) Tj T* ET
 Q
 Q
 Q
@@ -5295,7 +5316,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest server3_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server3) Tj T* (collected ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( items) Tj T*  T* (server3_tests.py ...                                                     ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.05s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest server3_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server3) Tj T* (collected ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( items) Tj T*  T* (server3_tests.py ...                                                     ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.05s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -5456,7 +5477,7 @@ n 134.4 0 4.8 9.6 re f*
 n 139.2 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 148.8 0 14.4 9.6 re f*
-BT 1 0 0 1 0 59.2 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/info') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (json_result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (json) Tj (\(\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F6 8 Tf .666667 .133333 1 rg (in) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F6 8 Tf 0 .501961 0 rg (True) Tj /F4 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (False) Tj /F4 8 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj (salt) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (salt) Tj ([) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('%') Tj 0 0 0 rg  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (float) Tj 0 0 0 rg (\() Tj (salt) Tj ([:) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]\)) Tj ( ) Tj .4 .4 .4 rg (>) Tj (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0.0) Tj T* ET
+BT 1 0 0 1 0 59.2 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T* (    ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/info') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (json_result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (json) Tj (\(\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F5 8 Tf .666667 .133333 1 rg (in) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F5 8 Tf 0 .501961 0 rg (True) Tj /F3 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (False) Tj /F3 8 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj (salt) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (salt) Tj ([) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('%') Tj 0 0 0 rg  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (float) Tj 0 0 0 rg (\() Tj (salt) Tj ([:) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]\)) Tj ( ) Tj .4 .4 .4 rg (>) Tj (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0.0) Tj T* ET
 Q
 Q
 Q
@@ -5490,7 +5511,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (With server3 running at ) Tj /F4 12 Tf (http://localhost:8080) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (With server3 running at ) Tj /F3 12 Tf (http://localhost:8080) Tj T* ET
 Q
 Q
 q
@@ -5533,7 +5554,7 @@ n 148.8 0 4.8 9.6 re f*
 n 206.4 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 235.2 0 148.8 9.6 re f*
-BT 1 0 0 1 0 78.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pytest client3_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client3) Tj T* (collected ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( items) Tj T*  T* (client3_tests.py ...                                                     ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.10s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
+BT 1 0 0 1 0 78.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pytest client3_tests.py) Tj T* .4 .4 .4 rg (=============================) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (test) Tj 0 0 0 rg ( session ) Tj .098039 .090196 .486275 rg (starts) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (==============================) Tj 0 0 0 rg  T* (platform darwin -- Python ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1) Tj T* (rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client3) Tj T* (collected ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( items) Tj T*  T* (client3_tests.py ...                                                     ) Tj .4 .4 .4 rg ([) Tj (100) Tj 0 0 0 rg (%) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T*  T* .4 .4 .4 rg (==============================) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg ( passed in ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (.10s ) Tj .4 .4 .4 rg (===============================) Tj T* ET
 Q
 Q
 Q
@@ -5630,7 +5651,7 @@ n 115.2 19.2 4.8 9.6 re f*
 n 19.2 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 4.8 9.6 re f*
-BT 1 0 0 1 0 68.8 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (from) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 0 1 rg (pact) Tj /F4 8 Tf 0 0 0 rg ( ) Tj /F6 8 Tf 0 .501961 0 rg (import) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (Like) Tj (,) Tj ( ) Tj (Term) Tj  T*  T* (BUTTER_INFO) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Like) Tj (\() Tj  T* (    ) Tj ({) Tj  T* (        ) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (:) Tj ( ) Tj (Term) Tj (\() Tj .729412 .129412 .129412 rg (r) Tj ('\\d+\(\\.\\d+\)?%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (\),) Tj  T* (        ) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (:) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (False) Tj /F4 8 Tf 0 0 0 rg (,) Tj  T* (    ) Tj (}) Tj  T* (\)) Tj T* ET
+BT 1 0 0 1 0 68.8 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (from) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 0 1 rg (pact) Tj /F3 8 Tf 0 0 0 rg ( ) Tj /F5 8 Tf 0 .501961 0 rg (import) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (Like) Tj (,) Tj ( ) Tj (Term) Tj  T*  T* (BUTTER_INFO) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Like) Tj (\() Tj  T* (    ) Tj ({) Tj  T* (        ) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (:) Tj ( ) Tj (Term) Tj (\() Tj .729412 .129412 .129412 rg (r) Tj ('\\d+\(\\.\\d+\)?%') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('0%') Tj 0 0 0 rg (\),) Tj  T* (        ) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (:) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (False) Tj /F3 8 Tf 0 0 0 rg (,) Tj  T* (    ) Tj (}) Tj  T* (\)) Tj T* ET
 Q
 Q
 Q
@@ -5853,7 +5874,7 @@ n 134.4 0 4.8 9.6 re f*
 n 139.2 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 148.8 0 14.4 9.6 re f*
-BT 1 0 0 1 0 145.6 Tm 9.6 TL /F6 8 Tf 0 .501961 0 rg (def) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to know about the butter being used') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request for information') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/info') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BUTTER_INFO) Tj (\)\)) Tj  T*  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (with) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F6 8 Tf .733333 .4 .533333 rg ({) Tj /F4 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F6 8 Tf .733333 .4 .533333 rg (}) Tj /F4 8 Tf .729412 .129412 .129412 rg (/info') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj (json_result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (json) Tj (\(\)) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F6 8 Tf .666667 .133333 1 rg (in) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F6 8 Tf 0 .501961 0 rg (True) Tj /F4 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (False) Tj /F4 8 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj (salt) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj (salt) Tj ([) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('%') Tj 0 0 0 rg  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg (assert) Tj /F4 8 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (float) Tj 0 0 0 rg (\() Tj (salt) Tj ([:) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]\)) Tj ( ) Tj .4 .4 .4 rg (>) Tj (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0.0) Tj T* ET
+BT 1 0 0 1 0 145.6 Tm 9.6 TL /F5 8 Tf 0 .501961 0 rg (def) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (test_info) Tj 0 0 0 rg (\(\):) Tj  T*  T* (    ) Tj (\() Tj (pact) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (given) Tj (\() Tj .729412 .129412 .129412 rg ('We want to know about the butter being used') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (upon_receiving) Tj (\() Tj .729412 .129412 .129412 rg ('a request for information') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (with_request) Tj (\() Tj .729412 .129412 .129412 rg ('get') Tj 0 0 0 rg (,) Tj ( ) Tj .729412 .129412 .129412 rg ('/info') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (will_respond_with) Tj (\() Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj ( ) Tj (body) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BUTTER_INFO) Tj (\)\)) Tj  T*  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (with) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (pact) Tj (:) Tj  T* (        ) Tj (result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (requests) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg (f) Tj (') Tj /F5 8 Tf .733333 .4 .533333 rg ({) Tj /F3 8 Tf 0 0 0 rg (PACT_BASE_URL) Tj /F5 8 Tf .733333 .4 .533333 rg (}) Tj /F3 8 Tf .729412 .129412 .129412 rg (/info') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj (json_result) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (result) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (json) Tj (\(\)) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('lactose') Tj 0 0 0 rg (]) Tj ( ) Tj /F5 8 Tf .666667 .133333 1 rg (in) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (\() Tj /F5 8 Tf 0 .501961 0 rg (True) Tj /F3 8 Tf 0 0 0 rg (,) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (False) Tj /F3 8 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj (salt) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (json_result) Tj ([) Tj .729412 .129412 .129412 rg ('salt') Tj 0 0 0 rg (]) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj (salt) Tj ([) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('%') Tj 0 0 0 rg  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg (assert) Tj /F3 8 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (float) Tj 0 0 0 rg (\() Tj (salt) Tj ([:) Tj .4 .4 .4 rg (-) Tj (1) Tj 0 0 0 rg (]\)) Tj ( ) Tj .4 .4 .4 rg (>) Tj (=) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (0.0) Tj T* ET
 Q
 Q
 Q
@@ -5887,7 +5908,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (In ) Tj /F4 12 Tf (client3/sandwich-maker-butterer.json) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (In ) Tj /F3 12 Tf (client3/sandwich-maker-butterer.json) Tj T* ET
 Q
 Q
 q
@@ -5988,7 +6009,7 @@ n 72 9.6 4.8 9.6 re f*
 n 81.6 9.6 24 9.6 re f*
 .960784 .960784 .862745 rg
 n 19.2 0 9.6 9.6 re f*
-BT 1 0 0 1 0 136 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("description") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request for information") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("providerState") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to know about the butter being used") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("request") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("method") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("path") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/info") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F6 8 Tf 0 .501961 0 rg ("response") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("status") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("headers") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj (},) Tj  T* (    ) Tj /F6 8 Tf 0 .501961 0 rg ("body") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("salt") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("0%") Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("lactose") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj /F6 8 Tf 0 .501961 0 rg (false) Tj /F4 8 Tf 0 0 0 rg  T* (    ) Tj (},) Tj  T* ET
+BT 1 0 0 1 0 136 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ({) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("description") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("a request for information") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("providerState") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("We want to know about the butter being used") Tj 0 0 0 rg (,) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("request") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("method") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("get") Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("path") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("/info") Tj 0 0 0 rg  T* (  ) Tj (},) Tj  T* (  ) Tj /F5 8 Tf 0 .501961 0 rg ("response") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("status") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg (,) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("headers") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (    ) Tj (},) Tj  T* (    ) Tj /F5 8 Tf 0 .501961 0 rg ("body") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("salt") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("0%") Tj 0 0 0 rg (,) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("lactose") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj /F5 8 Tf 0 .501961 0 rg (false) Tj /F3 8 Tf 0 0 0 rg  T* (    ) Tj (},) Tj  T* ET
 Q
 Q
 Q
@@ -6072,7 +6093,7 @@ n 19.2 19.2 4.8 9.6 re f*
 n 9.6 9.6 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 0 0 4.8 9.6 re f*
-BT 1 0 0 1 0 97.6 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (    ) Tj /F6 8 Tf 0 .501961 0 rg ("matchingRules") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("$.body") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (        ) Tj /F6 8 Tf 0 .501961 0 rg ("match") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("type") Tj 0 0 0 rg  T* (      ) Tj (},) Tj  T* (      ) Tj /F6 8 Tf 0 .501961 0 rg ("$.body.salt") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (        ) Tj /F6 8 Tf 0 .501961 0 rg ("match") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("regex") Tj 0 0 0 rg (,) Tj  T* (        ) Tj /F6 8 Tf 0 .501961 0 rg ("regex") Tj /F4 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("\\\\d+\(\\\\.\\\\d+\)?%") Tj 0 0 0 rg  T* (      ) Tj (}) Tj  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
+BT 1 0 0 1 0 97.6 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (    ) Tj /F5 8 Tf 0 .501961 0 rg ("matchingRules") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("$.body") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (        ) Tj /F5 8 Tf 0 .501961 0 rg ("match") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("type") Tj 0 0 0 rg  T* (      ) Tj (},) Tj  T* (      ) Tj /F5 8 Tf 0 .501961 0 rg ("$.body.salt") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj ({) Tj  T* (        ) Tj /F5 8 Tf 0 .501961 0 rg ("match") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("regex") Tj 0 0 0 rg (,) Tj  T* (        ) Tj /F5 8 Tf 0 .501961 0 rg ("regex") Tj /F3 8 Tf 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ("\\\\d+\(\\\\.\\\\d+\)?%") Tj 0 0 0 rg  T* (      ) Tj (}) Tj  T* (    ) Tj (}) Tj  T* (  ) Tj (}) Tj  T* (}) Tj T* ET
 Q
 Q
 Q
@@ -6106,7 +6127,7 @@ Q
 q
 1 0 0 1 19.6063 190.5354 cm
 q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (with server3 running on ) Tj /F4 12 Tf (http://localhost:8080) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (with server3 running on ) Tj /F3 12 Tf (http://localhost:8080) Tj T* ET
 Q
 Q
 q
@@ -6139,7 +6160,7 @@ n 105.6 38.4 14.4 9.6 re f*
 n 196.8 38.4 120 9.6 re f*
 .960784 .960784 .862745 rg
 n 124.8 28.8 14.4 9.6 re f*
-BT 1 0 0 1 0 136 Tm 9.6 TL /F4 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F6 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client3/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client3/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* ET
+BT 1 0 0 1 0 136 Tm 9.6 TL /F3 8 Tf 0 0 0 rg ($ pact-verifier ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --provider-base-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (http://localhost:8080 ) Tj /F5 8 Tf .733333 .4 .133333 rg (\\) Tj T* /F3 8 Tf 0 0 0 rg (  --pact-url) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (../client3/sandwich-maker-butterer.json) Tj T* (INFO: Reading pact at ../client3/sandwich-maker-butterer.json) Tj T*  T* (Verifying a pact between sandwich-maker and Butterer) Tj T* (  Given We want to butter bread) Tj T* (    a request to butter bread) Tj T* (      with GET /butter/bread) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* (  Given We want to butter bread again) Tj T* (    a request to butter buttered bread) Tj T* ET
 Q
 Q
 Q
@@ -6197,7 +6218,7 @@ n 124.8 28.8 14.4 9.6 re f*
 n 0 0 4.8 9.6 re f*
 .960784 .960784 .862745 rg
 n 76.8 0 4.8 9.6 re f*
-BT 1 0 0 1 0 126.4 Tm 9.6 TL /F4 8 Tf 0 0 0 rg (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* (  Given We want to know about the butter being used) Tj T* (    a request ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( information) Tj T* (      with GET /info) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F6 8 Tf 0 .501961 0 rg (for) Tj /F4 8 Tf 0 0 0 rg ( provider state ) Tj (') Tj (We want to know about ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (3) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
+BT 1 0 0 1 0 126.4 Tm 9.6 TL /F3 8 Tf 0 0 0 rg (      with GET /butter/bread%20and%20butter) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj .729412 .129412 .129412 rg ('We want to butter bread again') Tj 0 0 0 rg ( ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T* (  Given We want to know about the butter being used) Tj T* (    a request ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( information) Tj T* (      with GET /info) Tj T* (        returns a response which) Tj T* (WARN: Skipping ) Tj 0 .501961 0 rg (set) Tj 0 0 0 rg ( up ) Tj /F5 8 Tf 0 .501961 0 rg (for) Tj /F3 8 Tf 0 0 0 rg ( provider state ) Tj (') Tj (We want to know about ...) Tj T* (          has status code ) Tj .4 .4 .4 rg (200) Tj 0 0 0 rg  T* (          has a matching body) Tj T*  T* .4 .4 .4 rg (3) Tj 0 0 0 rg ( interactions, ) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg ( failures) Tj T* ET
 Q
 Q
 Q
@@ -6527,7 +6548,7 @@ q
 1 0 0 1 19.6063 62.13543 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F3 12 Tf 14.4 TL (That means client and server need not be in the same language) Tj T* ET
+BT 1 0 0 1 0 2.4 Tm /F6 12 Tf 14.4 TL (That means client and server need not be in the same language) Tj T* ET
 Q
 Q
 q
@@ -6538,7 +6559,7 @@ endstream
 endobj
 221 0 obj
 <<
-/Length 2305
+/Length 1587
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -6582,75 +6603,29 @@ q
 Q
 Q
 q
-1 0 0 1 19.6063 188.5354 cm
+1 0 0 1 19.6063 180.5354 cm
 Q
 q
-1 0 0 1 19.6063 174.1354 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
+1 0 0 1 19.6063 160.1354 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL 9.8 0 Td (\177) Tj T* -9.8 0 Td ET
+BT 1 0 0 1 0 2.4 Tm /F6 12 Tf 14.4 TL (Remember, buttering should be idempotent.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 -3 cm
-q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (VCR: ) Tj .105882 .482353 .533333 rg (https://vcrpy.readthedocs.io/) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 19.6063 172.1354 cm
-Q
-q
-1 0 0 1 19.6063 157.7354 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F1 12 Tf 14.4 TL 9.8 0 Td (\177) Tj T* -9.8 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Betamax: ) Tj .105882 .482353 .533333 rg (https://betamax.readthedocs.io/) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 19.6063 147.7354 cm
-Q
-q
-1 0 0 1 19.6063 127.3354 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2.4 Tm /F3 12 Tf 14.4 TL (Remember, buttering should be idempotent.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 19.6063 102.9354 cm
+1 0 0 1 19.6063 135.7354 cm
 q
 BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Written in ) Tj .105882 .482353 .533333 rg (reStructuredText) Tj 0 0 0 rg (, converted to PDF using ) Tj .105882 .482353 .533333 rg (rst2pdf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 19.6063 78.53543 cm
+1 0 0 1 19.6063 111.3354 cm
 q
 BT 1 0 0 1 0 2.4 Tm 14.4 TL /F1 12 Tf 0 0 0 rg (Source and examples at ) Tj .105882 .482353 .533333 rg (https://github.com/tibs/pact-talk) Tj T* ET
 Q
 Q
 q
-1 0 0 1 19.6063 39.73543 cm
+1 0 0 1 19.6063 72.53543 cm
 q
 q
 21.12 0 0 7.44 0 17.88 cm
@@ -7024,280 +6999,280 @@ xref
 0000043025 00000 n 
 0000043296 00000 n 
 0000043567 00000 n 
-0000043838 00000 n 
-0000043954 00000 n 
-0000044225 00000 n 
-0000044496 00000 n 
-0000044767 00000 n 
-0000045038 00000 n 
-0000045144 00000 n 
-0000045415 00000 n 
-0000045529 00000 n 
-0000045640 00000 n 
-0000045911 00000 n 
-0000046182 00000 n 
-0000046453 00000 n 
-0000046724 00000 n 
-0000046995 00000 n 
-0000047266 00000 n 
-0000047537 00000 n 
-0000047808 00000 n 
-0000048006 00000 n 
-0000048296 00000 n 
-0000048567 00000 n 
-0000048838 00000 n 
-0000049109 00000 n 
-0000049380 00000 n 
-0000049651 00000 n 
-0000049922 00000 n 
-0000050193 00000 n 
-0000050464 00000 n 
-0000050735 00000 n 
-0000051006 00000 n 
-0000051277 00000 n 
-0000051548 00000 n 
-0000051819 00000 n 
-0000052090 00000 n 
-0000052361 00000 n 
-0000052632 00000 n 
-0000052903 00000 n 
-0000053174 00000 n 
-0000053445 00000 n 
-0000053716 00000 n 
-0000053987 00000 n 
-0000054258 00000 n 
-0000054529 00000 n 
-0000054800 00000 n 
-0000055071 00000 n 
-0000055342 00000 n 
-0000055613 00000 n 
-0000055884 00000 n 
-0000056155 00000 n 
-0000056426 00000 n 
-0000056697 00000 n 
-0000056968 00000 n 
-0000057239 00000 n 
-0000057510 00000 n 
-0000057781 00000 n 
-0000058052 00000 n 
-0000058323 00000 n 
-0000058594 00000 n 
-0000058767 00000 n 
-0000058965 00000 n 
-0000059262 00000 n 
-0000059533 00000 n 
-0000059804 00000 n 
-0000059977 00000 n 
-0000060158 00000 n 
-0000060341 00000 n 
-0000060559 00000 n 
-0000060732 00000 n 
-0000060918 00000 n 
-0000062976 00000 n 
-0000063230 00000 n 
-0000063429 00000 n 
-0000063627 00000 n 
-0000064015 00000 n 
-0000064123 00000 n 
-0000064407 00000 n 
-0000064483 00000 n 
-0000064603 00000 n 
-0000064734 00000 n 
-0000064867 00000 n 
-0000064990 00000 n 
-0000065114 00000 n 
-0000065248 00000 n 
-0000065399 00000 n 
-0000065547 00000 n 
-0000065700 00000 n 
-0000065852 00000 n 
-0000065996 00000 n 
-0000066122 00000 n 
-0000066265 00000 n 
-0000066415 00000 n 
-0000066557 00000 n 
-0000066686 00000 n 
-0000066829 00000 n 
-0000066958 00000 n 
-0000067087 00000 n 
-0000067221 00000 n 
-0000067371 00000 n 
-0000067522 00000 n 
-0000067673 00000 n 
-0000067803 00000 n 
-0000067929 00000 n 
-0000068060 00000 n 
-0000068191 00000 n 
-0000068322 00000 n 
-0000068478 00000 n 
-0000068604 00000 n 
-0000068755 00000 n 
-0000068892 00000 n 
-0000069026 00000 n 
-0000069170 00000 n 
-0000069328 00000 n 
-0000069481 00000 n 
-0000069617 00000 n 
-0000069746 00000 n 
-0000069894 00000 n 
-0000070033 00000 n 
-0000070172 00000 n 
-0000070331 00000 n 
-0000070459 00000 n 
-0000070587 00000 n 
-0000070715 00000 n 
-0000070846 00000 n 
-0000070972 00000 n 
-0000071117 00000 n 
-0000071252 00000 n 
-0000071386 00000 n 
-0000071515 00000 n 
-0000071649 00000 n 
-0000071778 00000 n 
-0000071922 00000 n 
-0000072051 00000 n 
-0000072199 00000 n 
-0000072332 00000 n 
-0000072458 00000 n 
-0000072600 00000 n 
-0000072731 00000 n 
-0000072878 00000 n 
-0000072984 00000 n 
-0000073512 00000 n 
-0000074750 00000 n 
-0000077077 00000 n 
-0000077847 00000 n 
-0000078637 00000 n 
-0000078971 00000 n 
-0000079605 00000 n 
-0000081578 00000 n 
-0000082944 00000 n 
-0000084003 00000 n 
-0000085000 00000 n 
-0000086491 00000 n 
-0000087607 00000 n 
-0000087941 00000 n 
-0000088918 00000 n 
-0000092796 00000 n 
-0000094755 00000 n 
-0000096863 00000 n 
-0000098677 00000 n 
-0000102454 00000 n 
-0000104707 00000 n 
-0000105606 00000 n 
-0000106501 00000 n 
-0000110419 00000 n 
-0000115574 00000 n 
-0000117692 00000 n 
-0000118909 00000 n 
-0000120749 00000 n 
-0000124766 00000 n 
-0000126328 00000 n 
-0000128531 00000 n 
-0000128865 00000 n 
-0000129777 00000 n 
-0000132986 00000 n 
-0000134420 00000 n 
-0000136544 00000 n 
-0000138689 00000 n 
-0000142007 00000 n 
-0000147080 00000 n 
-0000149196 00000 n 
-0000153067 00000 n 
-0000155157 00000 n 
-0000156654 00000 n 
-0000158607 00000 n 
-0000160117 00000 n 
-0000161717 00000 n 
-0000164126 00000 n 
-0000164649 00000 n 
-0000164983 00000 n 
-0000165735 00000 n 
-0000169104 00000 n 
-0000172059 00000 n 
-0000174168 00000 n 
-0000179322 00000 n 
-0000181587 00000 n 
-0000184241 00000 n 
-0000191872 00000 n 
-0000196229 00000 n 
-0000198755 00000 n 
-0000200899 00000 n 
-0000202963 00000 n 
-0000203297 00000 n 
-0000205160 00000 n 
-0000206877 00000 n 
-0000208136 00000 n 
-0000210494 00000 n 
-0000211268 00000 n 
-0000211303 00000 n 
-0000211338 00000 n 
-0000211373 00000 n 
-0000211408 00000 n 
-0000211443 00000 n 
-0000211478 00000 n 
-0000211513 00000 n 
-0000211548 00000 n 
-0000211583 00000 n 
-0000211619 00000 n 
-0000211655 00000 n 
-0000211691 00000 n 
-0000211727 00000 n 
-0000211763 00000 n 
-0000211799 00000 n 
-0000211835 00000 n 
-0000211871 00000 n 
-0000211907 00000 n 
-0000211943 00000 n 
-0000211979 00000 n 
-0000212015 00000 n 
-0000212051 00000 n 
-0000212087 00000 n 
-0000212123 00000 n 
-0000212159 00000 n 
-0000212195 00000 n 
-0000212231 00000 n 
-0000212267 00000 n 
-0000212303 00000 n 
-0000212339 00000 n 
-0000212375 00000 n 
-0000212411 00000 n 
-0000212447 00000 n 
-0000212483 00000 n 
-0000212519 00000 n 
-0000212555 00000 n 
-0000212591 00000 n 
-0000212627 00000 n 
-0000212663 00000 n 
-0000212699 00000 n 
-0000212735 00000 n 
-0000212771 00000 n 
-0000212807 00000 n 
-0000212843 00000 n 
-0000212879 00000 n 
-0000212915 00000 n 
-0000212951 00000 n 
-0000212987 00000 n 
-0000213023 00000 n 
-0000213059 00000 n 
-0000213095 00000 n 
-0000213131 00000 n 
-0000213167 00000 n 
-0000213203 00000 n 
-0000213239 00000 n 
-0000213275 00000 n 
-0000213311 00000 n 
-0000213347 00000 n 
-0000213383 00000 n 
-0000213419 00000 n 
-0000213455 00000 n 
-0000213491 00000 n 
-0000213527 00000 n 
-0000213563 00000 n 
+0000043749 00000 n 
+0000043933 00000 n 
+0000044230 00000 n 
+0000044501 00000 n 
+0000044772 00000 n 
+0000045043 00000 n 
+0000045314 00000 n 
+0000045420 00000 n 
+0000045691 00000 n 
+0000045805 00000 n 
+0000045916 00000 n 
+0000046187 00000 n 
+0000046458 00000 n 
+0000046729 00000 n 
+0000046845 00000 n 
+0000047116 00000 n 
+0000047387 00000 n 
+0000047658 00000 n 
+0000047929 00000 n 
+0000048200 00000 n 
+0000048398 00000 n 
+0000048688 00000 n 
+0000048959 00000 n 
+0000049230 00000 n 
+0000049501 00000 n 
+0000049772 00000 n 
+0000050043 00000 n 
+0000050314 00000 n 
+0000050585 00000 n 
+0000050856 00000 n 
+0000051127 00000 n 
+0000051398 00000 n 
+0000051669 00000 n 
+0000051940 00000 n 
+0000052211 00000 n 
+0000052482 00000 n 
+0000052753 00000 n 
+0000053024 00000 n 
+0000053295 00000 n 
+0000053566 00000 n 
+0000053837 00000 n 
+0000054108 00000 n 
+0000054379 00000 n 
+0000054650 00000 n 
+0000054921 00000 n 
+0000055192 00000 n 
+0000055463 00000 n 
+0000055734 00000 n 
+0000056005 00000 n 
+0000056276 00000 n 
+0000056547 00000 n 
+0000056818 00000 n 
+0000057089 00000 n 
+0000057360 00000 n 
+0000057631 00000 n 
+0000057902 00000 n 
+0000058173 00000 n 
+0000058444 00000 n 
+0000058715 00000 n 
+0000058986 00000 n 
+0000059159 00000 n 
+0000059357 00000 n 
+0000059654 00000 n 
+0000059925 00000 n 
+0000060196 00000 n 
+0000060369 00000 n 
+0000060587 00000 n 
+0000060760 00000 n 
+0000060946 00000 n 
+0000063004 00000 n 
+0000063258 00000 n 
+0000063457 00000 n 
+0000063655 00000 n 
+0000064029 00000 n 
+0000064137 00000 n 
+0000064421 00000 n 
+0000064497 00000 n 
+0000064617 00000 n 
+0000064748 00000 n 
+0000064881 00000 n 
+0000065004 00000 n 
+0000065128 00000 n 
+0000065262 00000 n 
+0000065413 00000 n 
+0000065561 00000 n 
+0000065714 00000 n 
+0000065865 00000 n 
+0000066009 00000 n 
+0000066135 00000 n 
+0000066278 00000 n 
+0000066428 00000 n 
+0000066570 00000 n 
+0000066699 00000 n 
+0000066842 00000 n 
+0000066971 00000 n 
+0000067100 00000 n 
+0000067234 00000 n 
+0000067384 00000 n 
+0000067535 00000 n 
+0000067686 00000 n 
+0000067816 00000 n 
+0000067942 00000 n 
+0000068073 00000 n 
+0000068204 00000 n 
+0000068335 00000 n 
+0000068491 00000 n 
+0000068617 00000 n 
+0000068768 00000 n 
+0000068905 00000 n 
+0000069039 00000 n 
+0000069183 00000 n 
+0000069341 00000 n 
+0000069494 00000 n 
+0000069630 00000 n 
+0000069759 00000 n 
+0000069907 00000 n 
+0000070046 00000 n 
+0000070185 00000 n 
+0000070344 00000 n 
+0000070472 00000 n 
+0000070600 00000 n 
+0000070728 00000 n 
+0000070859 00000 n 
+0000070985 00000 n 
+0000071130 00000 n 
+0000071265 00000 n 
+0000071399 00000 n 
+0000071528 00000 n 
+0000071662 00000 n 
+0000071791 00000 n 
+0000071935 00000 n 
+0000072064 00000 n 
+0000072212 00000 n 
+0000072345 00000 n 
+0000072471 00000 n 
+0000072613 00000 n 
+0000072744 00000 n 
+0000072891 00000 n 
+0000072997 00000 n 
+0000073525 00000 n 
+0000074763 00000 n 
+0000077090 00000 n 
+0000077860 00000 n 
+0000078650 00000 n 
+0000078984 00000 n 
+0000079618 00000 n 
+0000081591 00000 n 
+0000082957 00000 n 
+0000084112 00000 n 
+0000085518 00000 n 
+0000087166 00000 n 
+0000088282 00000 n 
+0000088616 00000 n 
+0000089593 00000 n 
+0000093471 00000 n 
+0000095430 00000 n 
+0000097538 00000 n 
+0000099352 00000 n 
+0000103129 00000 n 
+0000105382 00000 n 
+0000106281 00000 n 
+0000106987 00000 n 
+0000110905 00000 n 
+0000116060 00000 n 
+0000118178 00000 n 
+0000119395 00000 n 
+0000121235 00000 n 
+0000125252 00000 n 
+0000126814 00000 n 
+0000129017 00000 n 
+0000129351 00000 n 
+0000130263 00000 n 
+0000133472 00000 n 
+0000134906 00000 n 
+0000137030 00000 n 
+0000139175 00000 n 
+0000142493 00000 n 
+0000147566 00000 n 
+0000149682 00000 n 
+0000153553 00000 n 
+0000155643 00000 n 
+0000157140 00000 n 
+0000159093 00000 n 
+0000160603 00000 n 
+0000162203 00000 n 
+0000164612 00000 n 
+0000165135 00000 n 
+0000165469 00000 n 
+0000166221 00000 n 
+0000169590 00000 n 
+0000172545 00000 n 
+0000174654 00000 n 
+0000179808 00000 n 
+0000182073 00000 n 
+0000184727 00000 n 
+0000192358 00000 n 
+0000196715 00000 n 
+0000199241 00000 n 
+0000201385 00000 n 
+0000203449 00000 n 
+0000203783 00000 n 
+0000205646 00000 n 
+0000207363 00000 n 
+0000208622 00000 n 
+0000210262 00000 n 
+0000211036 00000 n 
+0000211071 00000 n 
+0000211106 00000 n 
+0000211141 00000 n 
+0000211176 00000 n 
+0000211211 00000 n 
+0000211246 00000 n 
+0000211281 00000 n 
+0000211316 00000 n 
+0000211351 00000 n 
+0000211387 00000 n 
+0000211423 00000 n 
+0000211459 00000 n 
+0000211495 00000 n 
+0000211531 00000 n 
+0000211567 00000 n 
+0000211603 00000 n 
+0000211639 00000 n 
+0000211675 00000 n 
+0000211711 00000 n 
+0000211747 00000 n 
+0000211783 00000 n 
+0000211819 00000 n 
+0000211855 00000 n 
+0000211891 00000 n 
+0000211927 00000 n 
+0000211963 00000 n 
+0000211999 00000 n 
+0000212035 00000 n 
+0000212071 00000 n 
+0000212107 00000 n 
+0000212143 00000 n 
+0000212179 00000 n 
+0000212215 00000 n 
+0000212251 00000 n 
+0000212287 00000 n 
+0000212323 00000 n 
+0000212359 00000 n 
+0000212395 00000 n 
+0000212431 00000 n 
+0000212467 00000 n 
+0000212503 00000 n 
+0000212539 00000 n 
+0000212575 00000 n 
+0000212611 00000 n 
+0000212647 00000 n 
+0000212683 00000 n 
+0000212719 00000 n 
+0000212755 00000 n 
+0000212791 00000 n 
+0000212827 00000 n 
+0000212863 00000 n 
+0000212899 00000 n 
+0000212935 00000 n 
+0000212971 00000 n 
+0000213007 00000 n 
+0000213043 00000 n 
+0000213079 00000 n 
+0000213115 00000 n 
+0000213151 00000 n 
+0000213187 00000 n 
+0000213223 00000 n 
+0000213259 00000 n 
+0000213295 00000 n 
+0000213331 00000 n 
 trailer
 <<
 /ID 
-[<59cde8440327ed1b5c5df90e4dcf5321><59cde8440327ed1b5c5df90e4dcf5321>]
+[<bd9fdfd6884994ef66eb97d644123f65><bd9fdfd6884994ef66eb97d644123f65>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 92 0 R
@@ -7305,5 +7280,5 @@ trailer
 /Size 288
 >>
 startxref
-213599
+213367
 %%EOF
