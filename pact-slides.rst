@@ -25,14 +25,11 @@ What we shall cover
 The problem space
 -----------------
 
-We have two processes that communicate over HTTP.
+We have two processes that communicate over HTTP
 
-We want to test that they agree on that communication.
+We have control of testing of both of them
 
-From the Pact FAQ
------------------
-
-"""Pact is most valuable for designing and testing integrations where you (or your team/organisation/partner organisation) control the development of both the consumer and the provider, and the requirements of the consumer are going to be used to drive the features of the provider. It is fantastic tool for developing and testing intra-organisation microservices.""""
+We want to test that they agree on that communication
 
 Note on terminology
 -------------------
@@ -49,12 +46,14 @@ Interlude
 Unit tests
 ----------
 
-I'm going to assume we have unit tests within each service.
+I'm going to assume we have unit tests within each service
+
+We're only looking at the boundary between services
 
 1. End-to-end tests
 -------------------
 
-The tests talk to a real instance of the server.
+The client tests talk to a real instance of the server.
 
 * We need a server running
 * Hopefully not the production server
@@ -66,7 +65,7 @@ Likely to be expensive and slow
 2. Mock / fake the server responses
 -----------------------------------
 
-* What if we get it wrong - our tests may well still pass!
+* What if we get it wrong - our tests may still pass!
 * What version of the server?
 
 Likely to be difficult and unreliable
@@ -125,7 +124,7 @@ A very very simple example
 
 Imagine we are producing a service to make virtual sandwiches
 
-Since we like microservices (a lot) our main sandwhich assembly service will
+Since we like microservices (a lot) our sandwich assembly service will
 need a different service to "put butter on things"
 
 -----
@@ -191,10 +190,10 @@ We're not particularly interested in anything but that first request
 
 And actually, we're really only interested in the *test* for that request
 
-I haven't actually bothered to *write* the client at all...
+I haven't actually bothered to write the client at all...
 
-and a test for the client
--------------------------
+and our test
+------------
 
 .. code:: python
 
@@ -250,6 +249,8 @@ end)
 
 Let's write a test with pact - 1/2
 ----------------------------------
+
+Using pact-python_
 
 .. code:: python
 
@@ -308,66 +309,6 @@ Running the test creates two files:
 
 * A log file: ``pact-mock-service.log``
 * A contract file: ``sandwich-maker-butterer.json``
-
-Log - 1/3
----------
-
-::
-
-  I, [2021-01-08T11:20:52.257590 #13978]  INFO -- : Cleared interactions
-  I, [2021-01-08T11:20:52.262320 #13978]  INFO -- : Registered expected interaction GET /butter/bread
-  D, [2021-01-08T11:20:52.262556 #13978] DEBUG -- : {
-    "description": "a request to butter bread",
-    "providerState": "We want to butter bread",
-    "request": {
-      "method": "get",
-      "path": "/butter/bread"
-    },
-    "response": {
-      "status": 200,
-      "headers": {
-      },
-      "body": "bread and butter"
-    },
-    "metadata": null
-  }
-
-
-Log - 2/3
----------
-
-::
-
-  I, [2021-01-08T11:20:52.267929 #13978]  INFO -- : Received request GET /butter/bread
-  D, [2021-01-08T11:20:52.268008 #13978] DEBUG -- : {
-    "path": "/butter/bread",
-    "query": "",
-    "method": "get",
-    "headers": {
-      "Host": "localhost:1234",
-      "User-Agent": "python-requests/2.25.1",
-      "Accept-Encoding": "gzip, deflate",
-      "Accept": "*/*",
-      "Connection": "keep-alive",
-      "Version": "HTTP/1.1"
-    }
-  }
-
-Log - 3/3
----------
-
-::
-
-  I, [2021-01-08T11:20:52.268305 #13978]  INFO -- : Found matching response for GET /butter/bread
-  D, [2021-01-08T11:20:52.268405 #13978] DEBUG -- : {
-    "status": 200,
-    "headers": {
-    },
-    "body": "bread and butter"
-  }
-  I, [2021-01-08T11:20:52.273996 #13978]  INFO -- : Verifying - interactions matched
-  I, [2021-01-08T11:20:52.278698 #13978]  INFO -- : Writing pact for Butterer to
-    /Users/tibs/Dropbox/talks/pact-talk/examples/client1/sandwich-maker-butterer.json
 
 Contract - 1/3
 --------------
@@ -950,3 +891,4 @@ Source and examples at https://github.com/tibs/pact-talk
 .. _CamPUG: https://www.meetup.com/CamPUG/
 .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _rst2pdf: https://rst2pdf.org/
+.. _pact-python: https://github.com/pact-foundation/pact-python
