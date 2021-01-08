@@ -43,3 +43,10 @@ styles:
         leftIndent: 0
         spaceBefore: 8
         spaceAfter: 8
+
+    bullet-list-item:
+        parent: bodytext
+        spaceBefore: 10
+    item-list-item:
+        parent: bodytext
+        spaceBefore: 10
