@@ -11,19 +11,8 @@ Contract Testing with Pact
 
     Converted to PDF slides using rst2pdf_.
 
+    Source and examples at https://github.com/tibs/pact-talk
 
-Slides to go here
------------------
-
-No, there is not going to be Fortran in this presentation. This is a
-placeholder slide.
-
-.. code:: fortran
-
-  SUBROUTINE CALC(A,B,C,SUM,SUMSQ)
-    SUM = A + B + C
-    SUMSQ = SUM ** 2
-  END
 
 The problem space
 -----------------
