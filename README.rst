@@ -9,10 +9,10 @@ History
 
 The talk was (will be) given at CamPUG_ on Tuesday 12th January 2021.
 
-The files
-~~~~~~~~~
-All sources are in reStructuredText_, and thus intended to be readable as
-plain text.
+The slides
+~~~~~~~~~~
+The slides are written using reStructuredText_, and thus intended to be
+readable as plain text.
 
 The sources for the slides are in `<pact-slides.rst>`_.
 
@@ -29,28 +29,43 @@ timestamps.
 * The 4x3 aspect ratio slides are `<pact-slides-4x3.pdf>`_.
 * The 16x9 aspect ratio slides are `<pact-slides-16x9.pdf>`_.
 
-Making the PDF and HTML files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-For convenience, you can use the Makefile to create the PDF slides, an HTML
-version of the text, and so on. For instance::
+Making the PDF files
+~~~~~~~~~~~~~~~~~~~~
+For convenience, you can use the Makefile to create the PDF slides.
+For instance::
 
   $ make slides
-
-will make the PDF files.
 
 For what the Makefile can do, use::
 
   $ make help
 
-Requirements to build the documents:
-
-* I use poetry_ to manage the dependencies needed to build the PDFs.
-* rst2pdf_ and its dependencies
+I use poetry_ to manage the dependencies needed to build the PDFs, and
+rst2pdf_ and its dependencies to do the actual work.
 
 .. _poetry: https://python-poetry.org/
 .. _rst2pdf: https://rst2pdf.org/
 
-and an appropriate ``make`` program if you want to use the Makefile.
+You will also need an appropriate ``make`` program if you want to use the
+Makefile.
+
+The examples
+~~~~~~~~~~~~
+
+The examples in the slides are all in this repository, in the ``examples``
+directory.
+
+They all use bottle_, requests_, pytest_, and pact-python_. The appropriate
+dependencies are specified in the top-level ``pyproject.toml``, so (for
+instance) doing ``poetry install`` and ``poetry shell`` should get you ready
+to run them.
+
+* ``server1`` and ``client1`` have the basic "buttering" endpoint.
+* ``server2`` and ``client2`` provide idempotent buttering as well.
+* ``server3`` and ``client3`` also provide butter information.
+
+Each directory contains a set of tests, as ``<name>_tests.py_``, and the
+client directories also have pact tests, as ``<name>_contract_tests.py``.
 
 .. _CamPUG: https://www.meetup.com/CamPUG/
 .. _pandoc: https://pandoc.org/
@@ -59,6 +74,11 @@ and an appropriate ``make`` program if you want to use the Makefile.
 .. _TeX: https://www.ctan.org/starter
 
 .. _pact: https://docs.pact.io/_
+
+.. _bottle: https://bottlepy.org/docs/dev/
+.. _requests: https://requests.readthedocs.io/
+.. _pytest: https://docs.pytest.org/
+.. _pact-python: https://github.com/pact-foundation/pact-python
 
 --------
 
