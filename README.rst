@@ -21,13 +21,13 @@ albeit using their own styling (which makes notes a bit odd). If you want
 to see the original reStructuredText source, you have to click on the "Raw"
 link at the top of the file's page.)
 
-Since this version of the talk uses PDF slides, which I produce via rst2pdf_,
-I'm including the resultant PDF files in the repository. These
-may not always be as up-to-date as the source files, so check their
-timestamps.
+The 16x9 aspect ratio slides are `<pact-slides-16x9.pdf>`_ and are stored here
+for convenience. The 4x3 slides aren't provided because I'd need to do more
+work to make them well-formatted, which doesn't seem worth doing when I'm not
+going to be presenting in a physical venue.
 
-* The 4x3 aspect ratio slides are `<pact-slides-4x3.pdf>`_.
-* The 16x9 aspect ratio slides are `<pact-slides-16x9.pdf>`_.
+The PDF files may not always be as up-to-date as the source files, so check
+their timestamps.
 
 Making the PDF files
 ~~~~~~~~~~~~~~~~~~~~
