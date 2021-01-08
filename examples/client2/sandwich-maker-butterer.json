@@ -1,0 +1,42 @@
+{
+  "consumer": {
+    "name": "sandwich-maker"
+  },
+  "provider": {
+    "name": "Butterer"
+  },
+  "interactions": [
+    {
+      "description": "a request to butter bread",
+      "request": {
+        "method": "get",
+        "path": "/butter/bread"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": "bread and butter"
+      }
+    },
+    {
+      "description": "a request to butter buttered bread",
+      "providerState": "We ask to butter bread again",
+      "request": {
+        "method": "get",
+        "path": "/butter/bread%20and%20butter"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": "bread and butter"
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

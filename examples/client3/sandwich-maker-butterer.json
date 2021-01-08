@@ -1,0 +1,69 @@
+{
+  "consumer": {
+    "name": "sandwich-maker"
+  },
+  "provider": {
+    "name": "Butterer"
+  },
+  "interactions": [
+    {
+      "description": "a request to butter bread",
+      "providerState": "We want to butter bread",
+      "request": {
+        "method": "get",
+        "path": "/butter/bread"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": "bread and butter"
+      }
+    },
+    {
+      "description": "a request to butter buttered bread",
+      "providerState": "We want to butter bread again",
+      "request": {
+        "method": "get",
+        "path": "/butter/bread%20and%20butter"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": "bread and butter"
+      }
+    },
+    {
+      "description": "a request for information",
+      "providerState": "We want to know about the butter being used",
+      "request": {
+        "method": "get",
+        "path": "/info"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "salt": "0%",
+          "lactose": false
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          },
+          "$.body.salt": {
+            "match": "regex",
+            "regex": "\\d+(\\.\\d+)?%"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

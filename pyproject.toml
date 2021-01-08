@@ -12,6 +12,7 @@ pygments = "^2.7.3"
 bottle = "^0.12.19"
 requests = "^2.25.1"
 pytest = "^6.2.1"
+pact-python = "^1.2.11"
 
 [tool.poetry.dev-dependencies]
 

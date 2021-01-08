@@ -85,6 +85,7 @@ For instance, if we have
 * micro services
 * we supply the client and server
 * we supply a library that wraps the client and we supply the server
+* we have two services talking to each other
 
 Contract testing, summarised
 ----------------------------
@@ -203,10 +204,10 @@ The test we need in our client
 
   import requests
 
-  SERVER_BASE_URL = 'http://localhost:8080/butter'
+  BASE_URL = 'http://localhost:8080'
 
   def test_buttering():
-      result = requests.get(f'{SERVER_BASE_URL}/bread')
+      result = requests.get(f'{SERVER_BASE_URL}/butter/bread')
       assert(result.status_code) == 200
       assert(result.text) == 'bread and butter'
 
@@ -250,48 +251,190 @@ Which we already said was a Bad Thing at the start of this talk.
 Pact (and VCR and Betamax) all allow us to grab a recording of the request and
 response though.
 
-Getting a recording
--------------------
-
-<show how to do that>
-
-.. code:: shell
-
-   ...
-
-The Pact recording
-------------------
-
-<show the resultant file>
-
-And using it
-------------
-
-<and how to amend the test to use it>
-
-``client1_contract_tests.py``
+Let's write a test with pact
+----------------------------
 
 .. code:: python
 
-   ...
+  #!/usr/bin/env python3
 
-But it's also a contract...
----------------------------
+  import atexit
+  import requests
 
-``service1_contract_tests.py``
+  from pact import Consumer, Provider
+
+  pact = Consumer('sandwich-maker').has_pact_with(Provider('Butterer'))
+  pact.start_service()
+  atexit.register(pact.stop_service)
+
+  PACT_BASE_URL = 'http://localhost:1234'
+
+  BREAD_AND_BUTTER = 'bread and butter'
+
+Let's write a test with pact - 2
+--------------------------------
 
 .. code:: python
 
-   ...
 
-Which we can test is honoured by our service
---------------------------------------------
+  def test_buttering():
 
-<show testing that the service honours the contract>
+      (pact
+      .given('We want to butter bread')
+      .upon_receiving('a request to butter bread')
+      .with_request('get', '/butter/bread')
+      .will_respond_with(200, body=expected_body))
+
+      with pact:
+          result = requests.get(f'{PACT_BASE_URL}/butter/bread')
+
+      assert result.text == 'bread and butter'
+
+And run it
+----------
 
 .. code:: shell
 
-   ...
+  $ pytest client1_contract_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client1
+  collected 1 item
+
+  client1_contract_tests.py .                                              [100%]
+
+  ============================== 1 passed in 0.75s ===============================
+
+New files
+---------
+
+We now have two new files:
+
+``pact-mock-service.log``
+
+``sandwich-maker-butterer.json``
+
+``pact-mock-service.log``
+-------------------------
+
+::
+
+  I, [2021-01-08T11:20:52.257590 #13978]  INFO -- : Cleared interactions
+  I, [2021-01-08T11:20:52.262320 #13978]  INFO -- : Registered expected interaction GET /butter/bread
+  D, [2021-01-08T11:20:52.262556 #13978] DEBUG -- : {
+    "description": "a request to butter bread",
+    "providerState": "We want to butter bread",
+    "request": {
+      "method": "get",
+      "path": "/butter/bread"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+      },
+      "body": "bread and butter"
+    },
+    "metadata": null
+  }
+
+continued
+---------
+
+::
+
+  I, [2021-01-08T11:20:52.267929 #13978]  INFO -- : Received request GET /butter/bread
+  D, [2021-01-08T11:20:52.268008 #13978] DEBUG -- : {
+    "path": "/butter/bread",
+    "query": "",
+    "method": "get",
+    "headers": {
+      "Host": "localhost:1234",
+      "User-Agent": "python-requests/2.25.1",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Version": "HTTP/1.1"
+    }
+  }
+  I, [2021-01-08T11:20:52.268305 #13978]  INFO -- : Found matching response for GET /butter/bread
+  D, [2021-01-08T11:20:52.268405 #13978] DEBUG -- : {
+    "status": 200,
+    "headers": {
+    },
+    "body": "bread and butter"
+  }
+  I, [2021-01-08T11:20:52.273996 #13978]  INFO -- : Verifying - interactions matched
+  I, [2021-01-08T11:20:52.278698 #13978]  INFO -- : Writing pact for Butterer to /Users/tibs/Dropbox/talks/pact-talk/examples/client1/sandwich-maker-butterer.json
+
+``sandwich-maker-butterer.json``
+--------------------------------
+
+.. code:: json
+
+  {
+    "consumer": {
+      "name": "sandwich-maker"
+    },
+    "provider": {
+      "name": "Butterer"
+    },
+
+continued
+---------
+
+.. code:: json
+
+    "interactions": [
+      {
+        "description": "a request to butter bread",
+        "providerState": "We want to butter bread",
+        "request": {
+          "method": "get",
+          "path": "/butter/bread"
+        },
+        "response": {
+          "status": 200,
+          "headers": {
+          },
+          "body": "bread and butter"
+        }
+      }
+    ],
+
+continued
+---------
+
+.. code:: json
+
+    "metadata": {
+      "pactSpecification": {
+        "version": "2.0.0"
+      }
+    }
+  }
+
+Testing the contract against the server
+---------------------------------------
+
+With the server running (at ``http://localhost:8080``):
+
+.. code:: shell
+
+  $ pact-verifier \
+    --provider-base-url=http://localhost:8080 \
+    --pact-url=../client1/sandwich-maker-butterer.json
+  INFO: Reading pact at ../client1/sandwich-maker-butterer.json
+
+  Verifying a pact between sandwich-maker and Butterer
+    Given We want to butter bread
+      a request to butter bread
+        with GET /butter/bread
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread' ...
+            has status code 200
+            has a matching body
+
+  1 interaction, 0 failures
 
 Interlude
 ---------
@@ -327,8 +470,8 @@ Idempotent buttering, service2
   if __name__ == '__main__':
       app.run()
 
-And add a new test for service2
--------------------------------
+A new test for service2
+-----------------------
 
 ``service2_tests.py``
 
@@ -359,146 +502,369 @@ Our server tests still pass
 
   ============================== 2 passed in 0.04s ===============================
 
-For what it's worth, we still honour the contract
--------------------------------------------------
+We still honour the contract with client1
+-----------------------------------------
 
 .. code:: shell
 
-   ...
+  $ pact-verifier \
+    --provider-base-url=http://localhost:8080 \
+    --pact-url=../client1/sandwich-maker-butterer.json
+  INFO: Reading pact at ../client1/sandwich-maker-butterer.json
+
+  Verifying a pact between sandwich-maker and Butterer
+    Given We want to butter bread
+      a request to butter bread
+        with GET /butter/bread
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread' ...
+            has status code 200
+            has a matching body
+
+  1 interaction, 0 failures
 
 And client2 wants to use the new ability
 ----------------------------------------
 
-``client2_contract_tests.py``
-
-<make this code correct>
+An appropriate test against the server would be:
 
 .. code:: python
 
-  #!/usr/bin/env python3
-
-  import requests
-
-  def test_buttering():
-      result = requests.get(f'{SERVER_BASE_URL}/bread')
+  def test_buttering_twice():
+      result = requests.get(f'{BASE_URL}/butter/bread%20and%20butter')
       assert(result.status_code) == 200
       assert(result.text) == 'bread and butter'
+
+So we add a new contract test
+-----------------------------
+
+``client2_contract_tests.py`` - new test
+
+.. code:: python3
 
   def test_buttering_twice():
-      result = requests.get(f'{SERVER_BASE_URL}/bread%20and%20butter')
-      assert(result.status_code) == 200
-      assert(result.text) == 'bread and butter'
 
-But it fails!
+      (pact
+      .given('We want to butter bread again')
+      .upon_receiving('a request to butter buttered bread')
+      .with_request('get', '/butter/bread%20and%20butter')
+      .will_respond_with(200, body=BREAD_AND_BUTTER))
+
+      with pact:
+          result = requests.get(f'{PACT_BASE_URL}/butter/bread%20and%20butter')
+
+      assert result.text == 'bread and butter'
+
+And it passes
 -------------
 
-<show the failure>
-
 .. code:: shell
 
-...because the contract (the recording) doesn't know this new functionality
-
-Although if we use the server directly
---------------------------------------
-
-Remember the test against the server? We can extend it.
-
-``client2_tests.py``
-
-.. code:: python
-
-  #!/usr/bin/env python3
-
-  import requests
-
-  SERVER_BASE_URL = 'http://localhost:8080/butter'
-
-  def test_buttering():
-      result = requests.get(f'{SERVER_BASE_URL}/bread')
-      assert(result.status_code) == 200
-      assert(result.text) == 'bread and butter'
-
-  def test_buttering_twice():
-      result = requests.get(f'{SERVER_BASE_URL}/bread%20and%20butter')
-      assert(result.status_code) == 200
-      assert(result.text) == 'bread and butter'
-
-Those tests pass
-----------------
-
-.. code:: shell
-
-  $ pytest client2_tests.py
+  pytest client2_contract_tests.py
   ============================= test session starts ==============================
   platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
   rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client2
   collected 2 items
 
-  client2_tests.py ..                                                      [100%]
+  client2_contract_tests.py ..                                             [100%]
 
-  ============================== 2 passed in 0.11s ===============================
+  ============================== 2 passed in 0.79s ===============================
 
-(assuming I rememeber to run the corresponding server)
+``sandwich-maker-butterer.json``
+--------------------------------
 
-So we need to update the contract
----------------------------------
+A new interaction:
 
-Show how.
+.. code:: json
+
+      {
+        "description": "a request to butter buttered bread",
+        "providerState": "We want to butter bread again",
+        "request": {
+          "method": "get",
+          "path": "/butter/bread%20and%20butter"
+        },
+        "response": {
+          "status": 200,
+          "headers": {
+          },
+          "body": "bread and butter"
+        }
+      }
+    ],
+
+
+And service2 is also happy with the new contract
+------------------------------------------------
+
+While running service2 at ``http://localhost:8080``
 
 .. code:: shell
 
-   ...
+  $ pact-verifier \
+    --provider-base-url=http://localhost:8080 \
+    --pact-url=../client2/sandwich-maker-butterer.json
+  INFO: Reading pact at ../client2/sandwich-maker-butterer.json
 
-And now client2 is happy with the contract
-------------------------------------------
+  Verifying a pact between sandwich-maker and Butterer
+    Given We want to butter bread
+      a request to butter bread
+        with GET /butter/bread
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread' ...
+            has status code 200
+            has a matching body
+    Given We want to butter bread again
+      a request to butter buttered bread
+        with GET /butter/bread%20and%20butter
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread again' ...
+            has status code 200
+            has a matching body
 
-<do I need a slide before this for a different ``client2_contract_tests.py``?>
-
-<show it>
-
-.. code:: shell
-
-   ...
-
-
-And the new service is happy with the contract
-----------------------------------------------
-
-.. code:: shell
-
-   ...
+  2 interactions, 0 failures
 
 But the old service and the new contract...
 -------------------------------------------
 
 .. code:: shell
 
-   ...
+  $ pact-verifier \
+    --provider-base-url=http://localhost:8080 \
+    --pact-url=../client2/sandwich-maker-butterer.json
+  INFO: Reading pact at ../client2/sandwich-maker-butterer.json
 
-Combinations
+  Verifying a pact between sandwich-maker and Butterer
+    Given We want to butter bread
+      a request to butter bread
+        with GET /butter/bread
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread' ...
+            has status code 200
+            has a matching body
+    Given We want to butter bread again
+      a request to butter buttered bread
+        with GET /butter/bread%20and%20butter
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread again' ...
+            has status code 200
+            has a matching body (FAILED - 1)
+
+Failures
+--------
+
+.. code:: shell
+
+  Failures:
+
+    1) Verifying a pact between sandwich-maker and Butterer Given We want to butter bread
+       again a request to butter buttered bread with GET /butter/bread%20and%20butter
+       returns a response which has a matching body
+      Failure/Error: expect(response_body).to match_term expected_response_body, diff_options, example
+
+        Actual: bread and butter and butter
+
+        Diff
+        --------------------------------------
+        Key: - is expected
+              + is actual
+        Matching keys and values are not shown
+
+        -bread and butter
+        +bread and butter and butter
+
+
+Failures
+--------
+
+.. code:: shell
+
+        Description of differences
+        --------------------------------------
+        * Expected "bread and butter" but got "bread and butter and butter" at $
+
+  2 interactions, 1 failure
+
+  Failed interactions:
+
+  PACT_DESCRIPTION='a request to butter buttered bread' PACT_PROVIDER_STATE='We want to
+  butter bread again' /Users/tibs/Library/Caches/pypoetry/virtualenvs/pact-talk-zwt4AdHO-py3.8/bin/pact-verifier
+  --pact-url=../client2/sandwich-maker-butterer.json --provider-base-url=http://localhost:8080
+  # A request to butter buttered bread given We want to butter bread again
+
+Interlude
+---------
+
+<music before the next bit>
+
+What if it's not that simple
+----------------------------
+
+Let's provide information about the butter being used.
+
+``server3.py`` adds a new route:
+
+.. code:: python
+
+  @app.route('/info')
+  def info():
+      return {
+              'salt': random.choice(['0%', '0.01%']),
+              'lactose': random.choice([True, False]),
+          }
+      )
+
+A new test
+----------
+
+In ``server3_tests.py``
+
+.. code:: python
+
+  def test_info():
+      result = info()
+      assert result['salt'] in ('0%', '0.9%')
+      assert result['lactose'] in (True, False)
+
+
+And in our client
+-----------------
+
+A new test in ``client3_tests.py``
+
+.. code:: python
+
+  def test_info():
+      result = requests.get(f'{BASE_URL}/info')
+      json_result = result.json()
+      assert json_result['lactose'] in (True, False)
+      salt = json_result['salt']
+      assert salt[-1] == '%'
+      assert float(salt[:-1]) >= 0.0
+
+Which passes
 ------------
 
-Have I got this right?
+With server3 running at ``http://localhost:8080``
 
-  client1, old contract: OK
+.. code:: shell
 
-  client1, new contract: OK
+  $ pytest client3_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/client3
+  collected 3 items
 
-  client2, old contract: no
+  client3_tests.py ...                                                     [100%]
 
-  client2, new contract: OK
+  ============================== 3 passed in 0.10s ===============================
 
-and
----
+But we want a contract test
+---------------------------
 
-  service1, old contract: OK
+.. code:: python
 
-  service1, new contract: no
+  from pact import Like, Term
 
-  service2, old contract: OK
+  BUTTER_INFO = Like(
+      {
+          'salt': Term(r'\d+(\.\d+)?%', '0%'),
+          'lactose': False,
+      }
+  )
 
-  service2, new contract: OK
+And the test
+------------
 
+.. code:: python
+
+  def test_info():
+
+      (pact
+      .given('We want to know about the butter being used')
+      .upon_receiving('a request for information')
+      .with_request('get', '/info')
+      .will_respond_with(200, body=BUTTER_INFO))
+
+      with pact:
+          result = requests.get(f'{PACT_BASE_URL}/info')
+
+      json_result = result.json()
+      assert json_result['lactose'] in (True, False)
+      salt = json_result['salt']
+      assert salt[-1] == '%'
+      assert float(salt[:-1]) >= 0.0
+
+And here is the new interaction
+-------------------------------
+
+in ``client3/sandwich-maker-butterer.json``
+
+.. code:: json
+
+    {
+      "description": "a request for information",
+      "providerState": "We want to know about the butter being used",
+      "request": {
+        "method": "get",
+        "path": "/info"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "salt": "0%",
+          "lactose": false
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          },
+          "$.body.salt": {
+            "match": "regex",
+            "regex": "\\d+(\\.\\d+)?%"
+          }
+        }
+      }
+    }
+
+And the server agrees
+---------------------
+
+(with server3 running on ``http://localhost:8080``)
+
+.. code:: shell
+
+  $ pact-verifier \
+    --provider-base-url=http://localhost:8080 \
+    --pact-url=../client3/sandwich-maker-butterer.json
+  INFO: Reading pact at ../client3/sandwich-maker-butterer.json
+
+  Verifying a pact between sandwich-maker and Butterer
+    Given We want to butter bread
+      a request to butter bread
+        with GET /butter/bread
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread' ...
+            has status code 200
+            has a matching body
+    Given We want to butter bread again
+      a request to butter buttered bread
+        with GET /butter/bread%20and%20butter
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to butter bread again' ...
+            has status code 200
+            has a matching body
+    Given We want to know about the butter being used
+      a request for information
+        with GET /info
+          returns a response which
+  WARN: Skipping set up for provider state 'We want to know about ...
+            has status code 200
+            has a matching body
+
+  3 interactions, 0 failures
 
 Interlude
 ---------
@@ -515,139 +881,6 @@ Pact broker - run locally
 By copying (don't do this?**
 
 Via github or other VCS
-
-Interlude
----------
-
-<music before the next bit>
-
-Examples of more complicated contracts
---------------------------------------
-
-Choices / inexact matches / approximations
-
-A more complex contract: example data
--------------------------------------
-
-**Convert to Python!**
-
-.. code:: ruby
-
-  # This is a fairly minimal legal example, as determined by experimentation
-  # In particular, the "top level" type must be from a known enumeration,
-  # and the "second level" type is also limited to particular values.
-  example_data = [
-    {
-      name: 'Something',
-      type: 'Sometype',
-      settings: [
-        {
-          name: 'label',
-          label: 'Test label'
-        }
-      ]
-    }
-  ]
-
-A more complex contract: example test
--------------------------------------
-
-**Convert to Python!**
-
-.. code:: ruby
-
-  describe 'a request to get metadata for settings' do
-    it 'gets the expected metadata' do
-       our_server.upon_receiving('a metadata request')
-        .with(method: :get, path: '/v1/our_server/metadata',
-              query: 'tell_me=settings')
-        .will_respond_with(
-           status: 200,
-           headers: {'Content-Type' => 'application/json; charset=utf- 8'},
-           body: each_like(
-             name: like('Something'),
-             type: like('Sometype'),
-             settings: each_like( name: 'label', label: 'Test label')
-           )
-        )
-    end
-  end
-
-A more complex contract: the contract - 1
------------------------------------------
-
-.. code:: json
-
-  {
-      "consumer": {
-          "name": "our-client"
-      },
-      "provider": {
-          "name": "our-server"
-      },
-
-A more complex contract: the contract - 2
------------------------------------------
-
-.. code:: json
-
-      "interactions": [
-          {
-              "description": "a metadata request",
-              "request": {
-                  "method": "get",
-                  "path": "/v1/our_service/metadata",
-                  "query": "tell_me=settings"
-              },
-
-A more complex contract: the contract - 3
------------------------------------------
-
-.. code:: json
-
-              "response": {
-                  "status": 200,
-                  "headers": {
-                      "Content-Type": "application/json; charset=utf-8"
-                  },
-                  "body": [
-                      {
-                          "name": "Something",
-                          "type": "Sometype",
-                          "settings": [
-                              { "value1": "happy", "value2": "round" }
-                          ]
-                      }
-                  ],
-
-A more complex contract: the contract - 4
------------------------------------------
-
-.. code:: json
-
-                  "matchingRules": {
-                      "$.body": { "min": 1 },
-                      "$.body[*].*": { "match": "type" },
-                      "$.body[*].name": { "match": "type" },
-                      "$.body[*].type": { "match": "type" },
-                      "$.body[*].settings": { "min": 1 },
-                      "$.body[*].settings[*].*": { "match": "type" }
-                  }
-              },
-              "metadata": null
-          }
-      ],
-
-A more complex contract: the contract - 5
------------------------------------------
-
-.. code:: json
-
-      "metadata": {
-          "pactSpecification": { "version": "2.0.0"}
-      }
-  }
-
 
 Pact 2 versus Pact 3
 --------------------
@@ -721,7 +954,7 @@ Written in reStructuredText_.
 
 Converted to PDF slides using rst2pdf_.
 
-Source and extended notes at https://github.com/tibs/pact-talk
+Source and examples at https://github.com/tibs/pact-talk
 
 |cc-attr-sharealike| This slideshow and its related files are released under a
 `Creative Commons Attribution-ShareAlike 4.0 International License`_.

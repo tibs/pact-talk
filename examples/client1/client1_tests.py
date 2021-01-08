@@ -2,9 +2,9 @@
 
 import requests
 
-SERVER_BASE_URL = 'http://localhost:8080/butter'
+BASE_URL = 'http://localhost:8080'
 
 def test_buttering():
-    result = requests.get(f'{SERVER_BASE_URL}/bread')
+    result = requests.get(f'{BASE_URL}/butter/bread')
     assert(result.status_code) == 200
     assert(result.text) == 'bread and butter'
