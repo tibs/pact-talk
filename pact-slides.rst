@@ -12,6 +12,16 @@ Contract Testing with Pact
     Source and examples at https://github.com/tibs/pact-talk
 
 
+What we shall cover
+-------------------
+
+* The problem space
+* The testing approaches we might take
+* A very simple example
+* A second version that is a little more complex
+* A third version that has non-static response data
+* A few end items
+
 The problem space
 -----------------
 
@@ -33,6 +43,9 @@ For historical reasons, I'm going to talk about "server" and "client".
 
 But really, the Pact terms are better.
 
+Interlude
+---------
+
 Unit tests
 ----------
 
@@ -50,8 +63,8 @@ The tests talk to a real instance of the server.
 
 Likely to be expensive and slow
 
-2. Mock/fake the server responses
----------------------------------
+2. Mock / fake the server responses
+-----------------------------------
 
 * What if we get it wrong - our tests may well still pass!
 * What version of the server?
@@ -69,8 +82,8 @@ Use a library like VCR or Betamax to record the actual responses
 
 Excellent approach, but we have to remember to update the recordings
 
-Ideal approach - contract testing
----------------------------------
+4. Ideal approach - contract testing
+------------------------------------
 
 If we're lucky enough to have at least some control over both client and
 server, we can do better.
@@ -98,10 +111,10 @@ where the contracts are stored, and retrieve them
 But for the complete experience, when generating a contract, also store it
 in a contract broker
 
-  (conveniently, Pact provides one if you're happy to use it)
-
 Client and server can then be explicit about exactly which contract versions
 they both support
+
+We'll come back to this briefly at the end
 
 Interlude
 ---------
