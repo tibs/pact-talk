@@ -7,9 +7,7 @@ Contract Testing with Pact
 
     Presented at CamPUG_, virtually, 12th January 2021
 
-    Written in reStructuredText_.
-
-    Converted to PDF slides using rst2pdf_.
+    Written in reStructuredText_, converted to PDF using rst2pdf_.
 
     Source and examples at https://github.com/tibs/pact-talk
 
@@ -17,51 +15,59 @@ Contract Testing with Pact
 The problem space
 -----------------
 
-We have a client application that makes requests to a server.
+We have two processes that communicate over HTTP.
 
-We want to test this.
+We want to test that they agree on that communication.
 
-Simplest approach
+From the Pact FAQ
 -----------------
+
+"""Pact is most valuable for designing and testing integrations where you (or your team/organisation/partner organisation) control the development of both the consumer and the provider, and the requirements of the consumer are going to be used to drive the features of the provider. It is fantastic tool for developing and testing intra-organisation microservices.""""
+
+Note on terminology
+-------------------
+
+Pact talks about "producer" and "consumer" processes.
+
+For historical reasons, I'm going to talk about "server" and "client".
+
+But really, the Pact terms are better.
+
+Unit tests
+----------
+
+I'm going to assume we have unit tests within each service.
+
+1. End-to-end tests
+-------------------
 
 The tests talk to a real instance of the server.
 
-Problems:
-
 * We need a server running
-* Ideally not the production server
+* Hopefully not the production server
 * What version of the server?
+* What if it doesn't match what's in production?
 
 Likely to be expensive and slow
 
-Next approach: mock/fake it
----------------------------
+2. Mock/fake the server responses
+---------------------------------
 
-We could just write tests that have fixed responses mocked into them.
-
-Problems:
-
-* This is a pain to do for any scale of requests
 * What if we get it wrong - our tests may well still pass!
 * What version of the server?
 
 Likely to be difficult and unreliable
 
-Better approach - record it
----------------------------
+But does gives us useful documentation of our expectations
+
+3. Record real server responses
+-------------------------------
 
 Use a library like VCR or Betamax to record the actual responses
 
-1. Write the tests
-2. Run the tests against the real server, recording the responses
-3. From then on, use those recorded reponses
-
-Problems:
-
 * What version of the server?
 
-Excellent approach, but it's up to use to remember that we might have
-different versions of the server API.
+Excellent approach, but we have to remember to update the recordings
 
 Ideal approach - contract testing
 ---------------------------------
@@ -69,54 +75,52 @@ Ideal approach - contract testing
 If we're lucky enough to have at least some control over both client and
 server, we can do better.
 
-For instance, if we have
-
-* micro services
-* we supply the client and server
-* we supply a library that wraps the client and we supply the server
-* we have two services talking to each other
-
-Contract testing, summarised
-----------------------------
-
-Take the same approach as for VCR/Betamax, but *also* check that the server
-believes it will agrees with the recorded request/response pairings.
+Take the same approach as for recording, but *also* check that the server
+agrees it can honour those recordnings
 
 In other words, we have a **contract** between client and server.
 
-But what about that server version problem?
+But what about that server version?
+-----------------------------------
 
-Add in a contract broker
-------------------------
+Basically
+
+* name the contracts
+* note which contracts server A and client B should both honour
+* test accordingly
+
+Maybe use a contract broker
+---------------------------
 
 In simple systems, it may be enough for the server and client just to agree
-where the contracts are stored, and retrieve them.
+where the contracts are stored, and retrieve them
 
-But for the complete experience, when generating a contract, also store it,
-with an identifying hash, in a contract broker service.
+But for the complete experience, when generating a contract, also store it
+in a contract broker
 
   (conveniently, Pact provides one if you're happy to use it)
 
 Client and server can then be explicit about exactly which contract versions
-they both support.
+they both support
 
 Interlude
 ---------
 
-<music before the next bit>
 
 A very very simple example
 --------------------------
 
-Imagine we are producing a service to make virtual sandwiches.
+Imagine we are producing a service to make virtual sandwiches
 
 Since we like microservices (a lot) our main sandwhich assembly service will
-need a "put butter on things" service.
+need a different service to "put butter on things"
 
-The "put butter on things" service, service1
---------------------------------------------
+-----
 
-``service1.py``
+Let's create ``server1`` and ``client1``
+
+The "put butter on things" server
+----------------------------------
 
 .. code:: python
 
@@ -133,16 +137,8 @@ The "put butter on things" service, service1
   if __name__ == '__main__':
       app.run()
 
-Let's assume that's well tested
--------------------------------
-
-Because of course it is. And there's all the deployment infrastructure we
-need, and documentation, and everything, as well.
-
-...OK, here's a basic test
---------------------------
-
-``service1_tests.py``
+and a test for the server
+-------------------------
 
 .. code:: python
 
@@ -153,8 +149,8 @@ need, and documentation, and everything, as well.
   def test_butter():
       assert butter('bread') == 'bread and butter'
 
-The test passes
----------------
+which passes
+------------
 
 .. code:: shell
 
@@ -168,23 +164,24 @@ The test passes
 
   ============================== 1 passed in 0.05s ===============================
 
-Our client, client1
--------------------
+The sandwich making client
+--------------------------
 
-The client for the "put butter on things" service makes an appropriate
-request, to get butter put on something, and then carries on with the
-rest of the sandwich assembly.
+The client for the "put butter on things" server
 
-We're not particularly interested in that for now.
+1. makes a request to get butter on some bread
+2. carries on with the rest of the sandwich assembly
 
-We're just interested in the test we need in our client.
+-----
 
-(indeed, I didn't actually bother to *write* the actual client...)
+We're not particularly interested in anything but that first request
 
-The test we need in our client
-------------------------------
+And actually, we're really only interested in the *test* for that request
 
-``client1_tests.py``
+I haven't actually bothered to *write* the client at all...
+
+and a test for the client
+-------------------------
 
 .. code:: python
 
@@ -200,23 +197,8 @@ The test we need in our client
       assert(result.status_code) == 200
       assert(result.text) == 'bread and butter'
 
-That's it
----------
-
-Since this is the only request from our service to our client, we only have
-that one request to test.
-
-Since we know we only ever call it that way, it's not the responsibility of
-the server to test what happens if we make any other call - we assume the
-client is well tested.
-
-If we test this specific response, then we know that we can assume the result
-elsewhere in our testing, and we can use other techniques to inject that
-result into that testing - we don't necessarily need to make a request
-elsewhere at all.
-
-The test passes
----------------
+which passes
+------------
 
 .. code:: shell
 
@@ -230,18 +212,31 @@ The test passes
 
   ============================== 1 passed in 0.10s ===============================
 
-(provided I remember to run the server process)
+(provided I remember to run the server process!)
+
+Just the one test
+-----------------
+
+Since this is the only request from our server to our client, we only need
+that one test
+
+We assume the server's tests check for incorrect requests - that's not our
+responsibility
+
+And if we test this request once, the rest of our tests can assume the result
 
 But - we're making a real request
 ---------------------------------
 
-Which we already said was a Bad Thing at the start of this talk.
+Which we already said was a Bad Thing at the start of this talk
 
-Pact (and VCR and Betamax) all allow us to grab a recording of the request and
-response though.
+So let's look at how we can use Pact to describe our request and the response
 
-Let's write a test with pact
-----------------------------
+(if you want to do the same for VCR or Betamax, I'll give links to them at the
+end)
+
+Let's write a test with pact - 1/2
+----------------------------------
 
 .. code:: python
 
@@ -258,13 +253,12 @@ Let's write a test with pact
 
   PACT_BASE_URL = 'http://localhost:1234'
 
-  BREAD_AND_BUTTER = 'bread and butter'
-
-Let's write a test with pact - 2
---------------------------------
+Let's write a test with pact - 2/2
+----------------------------------
 
 .. code:: python
 
+  BREAD_AND_BUTTER = 'bread and butter'
 
   def test_buttering():
 
@@ -272,15 +266,15 @@ Let's write a test with pact - 2
       .given('We want to butter bread')
       .upon_receiving('a request to butter bread')
       .with_request('get', '/butter/bread')
-      .will_respond_with(200, body=expected_body))
+      .will_respond_with(200, body=BREAD_AND_BUTTER))
 
       with pact:
           result = requests.get(f'{PACT_BASE_URL}/butter/bread')
 
       assert result.text == 'bread and butter'
 
-And run it
-----------
+and it passes
+-------------
 
 .. code:: shell
 
@@ -297,14 +291,13 @@ And run it
 New files
 ---------
 
-We now have two new files:
+Running the test creates two files:
 
-``pact-mock-service.log``
+* A log file: ``pact-mock-service.log``
+* A contract file: ``sandwich-maker-butterer.json``
 
-``sandwich-maker-butterer.json``
-
-``pact-mock-service.log``
--------------------------
+Log - 1/3
+---------
 
 ::
 
@@ -326,7 +319,8 @@ We now have two new files:
     "metadata": null
   }
 
-continued
+
+Log - 2/3
 ---------
 
 ::
@@ -345,6 +339,12 @@ continued
       "Version": "HTTP/1.1"
     }
   }
+
+Log - 3/3
+---------
+
+::
+
   I, [2021-01-08T11:20:52.268305 #13978]  INFO -- : Found matching response for GET /butter/bread
   D, [2021-01-08T11:20:52.268405 #13978] DEBUG -- : {
     "status": 200,
@@ -353,10 +353,11 @@ continued
     "body": "bread and butter"
   }
   I, [2021-01-08T11:20:52.273996 #13978]  INFO -- : Verifying - interactions matched
-  I, [2021-01-08T11:20:52.278698 #13978]  INFO -- : Writing pact for Butterer to /Users/tibs/Dropbox/talks/pact-talk/examples/client1/sandwich-maker-butterer.json
+  I, [2021-01-08T11:20:52.278698 #13978]  INFO -- : Writing pact for Butterer to
+    /Users/tibs/Dropbox/talks/pact-talk/examples/client1/sandwich-maker-butterer.json
 
-``sandwich-maker-butterer.json``
---------------------------------
+Contract - 1/3
+--------------
 
 .. code:: json
 
@@ -368,8 +369,8 @@ continued
       "name": "Butterer"
     },
 
-continued
----------
+Contract - 2/3
+--------------
 
 .. code:: json
 
@@ -390,8 +391,8 @@ continued
       }
     ],
 
-continued
----------
+Contract - 3/3
+--------------
 
 .. code:: json
 
@@ -409,8 +410,7 @@ With the server running (at ``http://localhost:8080``):
 
 .. code:: shell
 
-  $ pact-verifier \
-    --provider-base-url=http://localhost:8080 \
+  $ pact-verifier --provider-base-url=http://localhost:8080 \
     --pact-url=../client1/sandwich-maker-butterer.json
   INFO: Reading pact at ../client1/sandwich-maker-butterer.json
 
@@ -428,26 +428,22 @@ With the server running (at ``http://localhost:8080``):
 Interlude
 ---------
 
-<music before the next bit>
 
 But buttering should be idempotent
 ----------------------------------
 
-If we ask to butter the same piece of bread more than once, we still want to
-get back "bread and butter".
+If we ask to butter the same piece of bread more than once,
 
-Idempotent buttering, service2
-------------------------------
+we still want to get back "bread and butter".
 
-``service2.py``
+-----
+
+Let's update our code to give ``server2`` and ``client2``
+
+Idempotent buttering
+--------------------
 
 .. code:: python
-
-  #!/usr/bin/env python3
-
-  from bottle import Bottle
-
-  app = Bottle()
 
   @app.route('/butter/<substrate>')
   def butter(substrate):
@@ -456,22 +452,10 @@ Idempotent buttering, service2
       else:
           return f'{substrate} and butter'
 
-  if __name__ == '__main__':
-      app.run()
-
-A new test for service2
------------------------
-
-``service2_tests.py``
+A new server test
+-----------------
 
 .. code:: python
-
-  #!/usr/bin/env python3
-
-  from server2 import butter
-
-  def test_butter():
-      assert butter('bread') == 'bread and butter'
 
   def test_already_buttered():
       assert butter('bread and butter') == 'bread and butter'
@@ -512,8 +496,8 @@ We still honour the contract with client1
 
   1 interaction, 0 failures
 
-And client2 wants to use the new ability
-----------------------------------------
+client2 wants to use the new ability
+------------------------------------
 
 An appropriate test against the server would be:
 
@@ -524,10 +508,8 @@ An appropriate test against the server would be:
       assert(result.status_code) == 200
       assert(result.text) == 'bread and butter'
 
-So we add a new contract test
------------------------------
-
-``client2_contract_tests.py`` - new test
+A new contract test
+-------------------
 
 .. code:: python3
 
@@ -544,8 +526,8 @@ So we add a new contract test
 
       assert result.text == 'bread and butter'
 
-And it passes
--------------
+which passes
+------------
 
 .. code:: shell
 
@@ -559,10 +541,10 @@ And it passes
 
   ============================== 2 passed in 0.79s ===============================
 
-``sandwich-maker-butterer.json``
---------------------------------
+And here is the new interaction
+-------------------------------
 
-A new interaction:
+In ``client2/sandwich-maker-butterer.json``
 
 .. code:: json
 
@@ -580,13 +562,11 @@ A new interaction:
           "body": "bread and butter"
         }
       }
-    ],
 
+server2 is happy - 1/2
+----------------------
 
-And service2 is also happy with the new contract
-------------------------------------------------
-
-While running service2 at ``http://localhost:8080``
+While running server2 at ``http://localhost:8080``
 
 .. code:: shell
 
@@ -603,6 +583,12 @@ While running service2 at ``http://localhost:8080``
   WARN: Skipping set up for provider state 'We want to butter bread' ...
             has status code 200
             has a matching body
+
+server2 is happy - 2/2
+----------------------
+
+.. code:: shell
+
     Given We want to butter bread again
       a request to butter buttered bread
         with GET /butter/bread%20and%20butter
@@ -613,8 +599,8 @@ While running service2 at ``http://localhost:8080``
 
   2 interactions, 0 failures
 
-But the old service and the new contract...
--------------------------------------------
+But the old server and the new contract...
+------------------------------------------
 
 .. code:: shell
 
@@ -631,6 +617,12 @@ But the old service and the new contract...
   WARN: Skipping set up for provider state 'We want to butter bread' ...
             has status code 200
             has a matching body
+
+fails - 1/2
+-----------
+
+.. code:: shell
+
     Given We want to butter bread again
       a request to butter buttered bread
         with GET /butter/bread%20and%20butter
@@ -639,8 +631,9 @@ But the old service and the new contract...
             has status code 200
             has a matching body (FAILED - 1)
 
-Failures
---------
+
+fails - 1/3
+-----------
 
 .. code:: shell
 
@@ -663,8 +656,8 @@ Failures
         +bread and butter and butter
 
 
-Failures
---------
+fails - 2/4
+-----------
 
 .. code:: shell
 
@@ -681,17 +674,28 @@ Failures
   --pact-url=../client2/sandwich-maker-butterer.json --provider-base-url=http://localhost:8080
   # A request to butter buttered bread given We want to butter bread again
 
+Which is good!
+--------------
+
+``server1`` does not support the contract required by ``client2``
+
 Interlude
 ---------
 
-<music before the next bit>
 
 What if it's not that simple
 ----------------------------
 
-Let's provide information about the butter being used.
+What if we have response data that may change?
 
-``server3.py`` adds a new route:
+-----
+
+Let's update our code to give ``server3`` and ``client3``
+
+Butter information
+------------------
+
+Let's provide information about the butter being used.
 
 .. code:: python
 
@@ -703,10 +707,8 @@ Let's provide information about the butter being used.
           }
       )
 
-A new test
-----------
-
-In ``server3_tests.py``
+A new server test
+-----------------
 
 .. code:: python
 
@@ -715,11 +717,23 @@ In ``server3_tests.py``
       assert result['salt'] in ('0%', '0.9%')
       assert result['lactose'] in (True, False)
 
+Which passes
+------------
+
+.. code:: shell
+
+  $ pytest server3_tests.py
+  ============================= test session starts ==============================
+  platform darwin -- Python 3.8.6, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+  rootdir: /Users/tibs/Dropbox/talks/pact-talk/examples/server3
+  collected 3 items
+
+  server3_tests.py ...                                                     [100%]
+
+  ============================== 3 passed in 0.05s ===============================
 
 And in our client
 -----------------
-
-A new test in ``client3_tests.py``
 
 .. code:: python
 
@@ -787,7 +801,7 @@ And the test
 And here is the new interaction
 -------------------------------
 
-in ``client3/sandwich-maker-butterer.json``
+In ``client3/sandwich-maker-butterer.json``
 
 .. code:: json
 
@@ -818,10 +832,10 @@ in ``client3/sandwich-maker-butterer.json``
       }
     }
 
-And the server agrees
----------------------
+server3 is happy
+----------------
 
-(with server3 running on ``http://localhost:8080``)
+with server3 running on ``http://localhost:8080``
 
 .. code:: shell
 
@@ -858,48 +872,34 @@ And the server agrees
 Interlude
 ---------
 
-<music before the next bit>
 
-How to communicate the contract
--------------------------------
+How to share the contract
+-------------------------
 
-Pact broker - run by Pact
+* By copying the contract file - don't do this!
 
-Pact broker - run locally
+* By "reference" - e.g., via github
 
-By copying (don't do this?**
+* Using a Pact broker - at https://pactflow.io/
 
-Via github or other VCS
-
-Pact 2 versus Pact 3
---------------------
-
-<summary>
+* Using a Pact broker - run "locally" as described at https://github.com/pact-foundation/pact_broker
 
 Other benefits
 --------------
 
-If there is a problem with the API, at either end, you have the stored copy
-to look at.
+* The server can tell what requests it needs to support, making dead code
+  detection easier (assumes complete coverage!)
 
-If you're trying to learn what the APIs do, and how they are used, then you
-can look at the stored copies. This is sometimes better/simpler than looking
-at the tests, which generally aren't written to this purpose.
+* Programmers can look at the contracts to learn about how requests and
+  responses are structured
 
-If your client tests give complete coverage, then the server can tell
-exactly which requests that client makes. This can aid in finding dead code,
-corresponding to requests that no-one ever makes.
+* Programmers can look at the contracts when trying to debug communication
+  issues
 
-*Anything else?*
+and doubtless other things
 
-Support for multiple programming languages - VCR/Betamax
---------------------------------------------------------
-
-Both VCR and Betamax are "ports" of the Ruby ``vcr`` gem, and they all share
-the same storage format.
-
-Support for multiple programming languages - Pact
--------------------------------------------------
+Multiple programming languages
+------------------------------
 
 Pact has a very active user community, and support for a variety of
 programming languages:
@@ -912,36 +912,16 @@ there are ways around that.
 
 *That means client and server need not be in the same language*
 
-When shouldn't you use Pact
----------------------------
-
-(I love that this is discussed in the Pact documentation)
-
-...
-
-Links for Pact
---------------
-
-* Pact: https://docs.pact.io/
-
-Links for VCR and related
--------------------------
-
-* VCR: https://vcrpy.readthedocs.io/
-* Betamax: https://betamax.readthedocs.io/
-
-Tips and tricks on http(s) session recording:
-https://medium.com/@george.shuklin/tips-and-tricks-on-http-s-session-recording-4194f99adbf
-
-
 Fin
 ---
 
+* Pact: https://docs.pact.io/
+* VCR: https://vcrpy.readthedocs.io/
+* Betamax: https://betamax.readthedocs.io/
+
 *Remember, buttering should be idempotent.*
 
-Written in reStructuredText_.
-
-Converted to PDF slides using rst2pdf_.
+Written in reStructuredText_, converted to PDF using rst2pdf_
 
 Source and examples at https://github.com/tibs/pact-talk
 

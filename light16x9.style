@@ -44,9 +44,18 @@ styles:
         spaceBefore: 8
         spaceAfter: 8
 
+    bullet-list:
+        parent: bodytext
+        spaceBefore: 0
+
     bullet-list-item:
         parent: bodytext
-        spaceBefore: 10
+        spaceBefore: 12
+
+    item-list:
+        parent: bodytext
+        spaceBefore: 0
+
     item-list-item:
         parent: bodytext
-        spaceBefore: 10
+        spaceBefore: 12
