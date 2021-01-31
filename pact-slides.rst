@@ -576,7 +576,7 @@ But the old server and the new contract...
             has status code 200
             has a matching body
 
-fails - 1/2
+fails - 2/4
 -----------
 
 .. code:: shell
@@ -589,18 +589,18 @@ fails - 1/2
             has status code 200
             has a matching body (FAILED - 1)
 
+  Failures:
 
-fails - 1/3
------------
+
+with details - 3/4
+------------------
 
 .. code:: shell
-
-  Failures:
 
     1) Verifying a pact between sandwich-maker and Butterer Given We want to butter bread
        again a request to butter buttered bread with GET /butter/bread%20and%20butter
        returns a response which has a matching body
-      Failure/Error: expect(response_body).to match_term expected_response_body, diff_options, example
+      Failure/Error: expect(response_body).to match_term expected_response_body, ...
 
         Actual: bread and butter and butter
 
@@ -614,8 +614,8 @@ fails - 1/3
         +bread and butter and butter
 
 
-fails - 2/4
------------
+and summary - 4/4
+-----------------
 
 .. code:: shell
 
@@ -660,7 +660,7 @@ Let's provide information about the butter being used.
   @app.route('/info')
   def info():
       return {
-              'salt': random.choice(['0%', '0.01%']),
+              'salt': random.choice(['0%', '0.9%']),
               'lactose': random.choice([True, False]),
           }
       )
